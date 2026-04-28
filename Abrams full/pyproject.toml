@@ -1,0 +1,35 @@
+[project]
+name = "sasnl-autism-speaker-study-tool"
+version = "0.1.0"
+description = "Offline-first multimodal speech-language analysis pipeline for SASNL autism speaker study sessions"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "pydantic>=2.6",
+  "typer>=0.12",
+  "rich>=13.7",
+  "vaderSentiment",
+  "textblob",
+  "lexicalrichness",
+  "python-dotenv",
+]
+
+[project.optional-dependencies]
+audio = ["faster-whisper", "opensmile", "soundfile"]
+nlp = ["spacy", "sentence-transformers", "nltk"]
+dev = ["pytest", "hypothesis", "ruff"]
+
+[project.scripts]
+sasnl-run = "sasnl.cli:app"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["sasnl", "sasnl.agents"]
+
+[tool.ruff]
+line-length = 100

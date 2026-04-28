@@ -1,0 +1,1025 @@
+{
+  "schema_version": "1.1",
+  "session": {
+    "session_id": "session_20260421_042426",
+    "student_id": "student_test",
+    "student_age_months": null,
+    "session_type": "SCS",
+    "baseline_session_id": null,
+    "session_duration_s": 0.3
+  },
+  "data_quality": {
+    "valid_input": true,
+    "speaker_diarization_confidence": 0.8,
+    "transcript_word_count": 1,
+    "transcript_utterance_count": 1,
+    "student_utterance_count": 0,
+    "interviewer_utterance_count": 1,
+    "student_word_count": 0,
+    "interviewer_word_count": 1,
+    "speaker_ids": {
+      "interviewer": "SPK_A",
+      "student": "SPK_B"
+    },
+    "issues": [],
+    "flags": [],
+    "processed_at": "2026-04-21T04:24:26.058601+00:00"
+  },
+  "transcript": {
+    "utterances": [
+      {
+        "utterance_id": "utt_001",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "hi",
+        "word_count": 1,
+        "start_time_s": 0.0,
+        "end_time_s": 0.3,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "hi",
+            "lemma": "hi",
+            "pos": "INTJ",
+            "dep": "ROOT"
+          }
+        ]
+      }
+    ]
+  },
+  "feature_store": {
+    "computed_by": "phase_0_nlp",
+    "tools_used": [
+      "rule_based_mvp"
+    ],
+    "per_utterance": {
+      "utt_001": {
+        "speaker_role": "interviewer",
+        "word_count": 1,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "INTJ": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      }
+    },
+    "speaker_level": {
+      "SPK_A": {
+        "total_words": 1,
+        "total_utterances": 1,
+        "avg_utterance_length_words": 1.0,
+        "ttr": 1.0,
+        "mattr_window_50": 1.0,
+        "unique_words": 1,
+        "sentence_type_counts": {
+          "simple": 1
+        },
+        "avg_sentence_length_words": 1.0,
+        "total_fillers": 0,
+        "filler_rate_per_100_words": 0.0,
+        "fillers_by_type": {},
+        "total_false_starts": 0,
+        "total_repetitions": 0,
+        "total_questions_asked": 0,
+        "total_turns": 1
+      }
+    },
+    "turn_pairs": [],
+    "full_transcript": {
+      "total_words": 1,
+      "total_turns": 1,
+      "turn_balance_ratio": 0.5,
+      "word_balance_ratio": 0.0,
+      "interruptions": 0,
+      "greeting_present": false,
+      "departure_present": false,
+      "topic_transition_count": 0,
+      "session_duration_s": 0.3
+    }
+  },
+  "topic_segments": {
+    "computed_by": "phase_1_llm",
+    "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+    "greeting": {
+      "present": true,
+      "utterance_ids": [
+        "utt_001"
+      ]
+    },
+    "topics": [
+      {
+        "topic_id": "topic_001",
+        "label": "general_conversation",
+        "utterance_ids": [
+          "utt_001"
+        ],
+        "initiated_by": "interviewer"
+      }
+    ],
+    "departure": {
+      "present": false,
+      "utterance_ids": []
+    },
+    "confidence": 0.65
+  },
+  "agents": {
+    "FillerWordAgent": {
+      "agent_name": "FillerWordAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057274+00:00",
+      "metrics": {
+        "source": "nlp",
+        "total_fillers": 0,
+        "phonological_fillers": 0,
+        "lexical_fillers": 0,
+        "filler_rate_per_100_words": 0.0
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "rule",
+        "functional_label": "fluency_load",
+        "severity": "none",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "Separated phonological and lexical fillers to prevent pragmatic confounding.",
+        "confidence": 0.8
+      },
+      "evidence": []
+    },
+    "FalseStartSelfCorrectionAgent": {
+      "agent_name": "FalseStartSelfCorrectionAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057285+00:00",
+      "metrics": {
+        "source": "nlp",
+        "false_start_count": 0,
+        "false_start_rate_per_100_words": 0.0
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "functional_label": "fallback_mode",
+        "severity": "mild",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "LLM fallback used due to runtime error: Unable to locate credentials",
+        "confidence": 0.5
+      },
+      "evidence": []
+    },
+    "RepetitionAgent": {
+      "agent_name": "RepetitionAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057781+00:00",
+      "metrics": {
+        "source": "nlp",
+        "immediate_repetition_count": 0,
+        "repetition_rate": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "DelayedRepetitionAgent": {
+      "agent_name": "DelayedRepetitionAgent",
+      "version": "1.0",
+      "transcript_level": "full_transcript",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057786+00:00",
+      "metrics": {
+        "source": "nlp",
+        "recurring_scripted_phrases": [],
+        "delayed_repetition_rate": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SpeechRateRhythmAgent": {
+      "agent_name": "SpeechRateRhythmAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057789+00:00",
+      "metrics": {
+        "source": "nlp",
+        "mean_wpm": 0.0,
+        "sdlu": 0.0,
+        "rlu": 0,
+        "rhythm_cv": 0.0,
+        "clinical_flag": true
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "MLUAgent": {
+      "agent_name": "MLUAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057792+00:00",
+      "metrics": {
+        "source": "nlp",
+        "mlu_w": 0.0,
+        "mlu_m": 0.0,
+        "utterance_count": 0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "VocabularyDiversityAgent": {
+      "agent_name": "VocabularyDiversityAgent",
+      "version": "1.0",
+      "transcript_level": "full_transcript",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057795+00:00",
+      "metrics": {
+        "source": "nlp",
+        "ttr": 0.0,
+        "mattr50": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "NDWAgent": {
+      "agent_name": "NDWAgent",
+      "version": "1.0",
+      "transcript_level": "full_transcript",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057797+00:00",
+      "metrics": {
+        "source": "nlp",
+        "ndw_100w": 0,
+        "sample_tokens": 0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "LexicalDensityAgent": {
+      "agent_name": "LexicalDensityAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057799+00:00",
+      "metrics": {
+        "source": "nlp",
+        "lexical_density": 0.0,
+        "content_word_count": 0,
+        "total_tokens": 0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SentenceComplexityAgent": {
+      "agent_name": "SentenceComplexityAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057801+00:00",
+      "metrics": {
+        "source": "nlp",
+        "clause_count": 0,
+        "clausal_density": 0.0,
+        "compound_proxy": 0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "AgreementErrorAgent": {
+      "agent_name": "AgreementErrorAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057803+00:00",
+      "metrics": {
+        "source": "nlp",
+        "sv_agreement_errors": 0,
+        "tense_errors": 0,
+        "error_rate_per_100_words": 0.0,
+        "clinical_flag": false
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "PronounReversalAgent": {
+      "agent_name": "PronounReversalAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057805+00:00",
+      "metrics": {
+        "source": "nlp",
+        "pronoun_counts": {},
+        "reversal_count": 0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "IdiosyncraticWordAgent": {
+      "agent_name": "IdiosyncraticWordAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057808+00:00",
+      "metrics": {
+        "source": "nlp",
+        "idiosyncratic_tokens": [],
+        "idiosyncratic_rate_per_100_words": 0.0,
+        "clinical_flag": false
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SemanticCoherenceAgent": {
+      "agent_name": "SemanticCoherenceAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057811+00:00",
+      "metrics": {
+        "source": "nlp",
+        "local_coherence_mean": 0.0,
+        "cross_speaker_coherence_mean": 0.0,
+        "tangential_flag": true
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "GlobalCoherenceAgent": {
+      "agent_name": "GlobalCoherenceAgent",
+      "version": "1.0",
+      "transcript_level": "full_transcript",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057813+00:00",
+      "metrics": {
+        "source": "nlp",
+        "global_coherence_mean": 0.0,
+        "pair_count": 0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SentimentISLAgent": {
+      "agent_name": "SentimentISLAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057815+00:00",
+      "metrics": {
+        "source": "nlp",
+        "positive_valence_count": 0,
+        "negative_valence_count": 0,
+        "isl_count": 0,
+        "positive_negative_ratio": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SemanticRelationshipAgent": {
+      "agent_name": "SemanticRelationshipAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057817+00:00",
+      "metrics": {
+        "source": "nlp",
+        "cue_hit_count": 0,
+        "coherent_relationship_count": 0,
+        "logical_coherence_ratio": 0.0
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "functional_label": "fallback_mode",
+        "severity": "mild",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "LLM fallback used due to runtime error: Unable to locate credentials",
+        "confidence": 0.5
+      },
+      "evidence": []
+    },
+    "FigurativeLanguageAgent": {
+      "agent_name": "FigurativeLanguageAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.057934+00:00",
+      "metrics": {
+        "source": "nlp",
+        "idiom_hits": 0,
+        "simile_hits": 0,
+        "metaphor_hits": 0,
+        "figurative_total": 0
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "functional_label": "fallback_mode",
+        "severity": "mild",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "LLM fallback used due to runtime error: Unable to locate credentials",
+        "confidence": 0.5
+      },
+      "evidence": []
+    },
+    "GreetingAgent": {
+      "agent_name": "GreetingAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058026+00:00",
+      "metrics": {
+        "source": "nlp",
+        "greeting_present": true,
+        "window_turns": 1
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "DepartureAgent": {
+      "agent_name": "DepartureAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058029+00:00",
+      "metrics": {
+        "source": "nlp",
+        "departure_present": false,
+        "window_turns": 1
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "InitiationAgent": {
+      "agent_name": "InitiationAgent",
+      "version": "1.0",
+      "transcript_level": "turn_pair",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058031+00:00",
+      "metrics": {
+        "source": "nlp",
+        "spontaneous_count": 0,
+        "prompted_count": 0,
+        "spontaneous_ratio": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "TurnTakingAgent": {
+      "agent_name": "TurnTakingAgent",
+      "version": "1.0",
+      "transcript_level": "full_transcript",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058059+00:00",
+      "metrics": {
+        "source": "nlp",
+        "student_words": 0,
+        "interviewer_words": 1,
+        "word_balance_ratio": 0.0,
+        "turn_balance_cv": 0.0,
+        "clinical_flag": true
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "QuestionUseAgent": {
+      "agent_name": "QuestionUseAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058062+00:00",
+      "metrics": {
+        "source": "nlp",
+        "total_questions": 0,
+        "initiated_questions": 0,
+        "responsive_questions": 0,
+        "follow_up_questions": 0
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "functional_label": "fallback_mode",
+        "severity": "mild",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "LLM fallback used due to runtime error: Unable to locate credentials",
+        "confidence": 0.5
+      },
+      "evidence": []
+    },
+    "InformativenessAgent": {
+      "agent_name": "InformativenessAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058151+00:00",
+      "metrics": {
+        "source": "nlp",
+        "mean_score_1_to_3": 0.0,
+        "score_distribution": {}
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "PolitenessHedgingAgent": {
+      "agent_name": "PolitenessHedgingAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058154+00:00",
+      "metrics": {
+        "source": "nlp",
+        "politeness_count": 0,
+        "hedge_count": 0,
+        "politeness_rate_per_100_utterances": 0.0,
+        "hedge_rate_per_100_utterances": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "TopicManagementAgent": {
+      "agent_name": "TopicManagementAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058156+00:00",
+      "metrics": {
+        "source": "nlp",
+        "topic_shift_count": 0,
+        "topic_maintenance_mean": 0.0,
+        "topic_maintenance_sd": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "WorkingMemoryAgent": {
+      "agent_name": "WorkingMemoryAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058159+00:00",
+      "metrics": {
+        "source": "nlp",
+        "reference_chain_count": 0,
+        "chain_break_count": 0,
+        "referential_coherence_ratio": 1.0
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "functional_label": "fallback_mode",
+        "severity": "mild",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "LLM fallback used due to runtime error: Unable to locate credentials",
+        "confidence": 0.5
+      },
+      "evidence": []
+    },
+    "NarrativeMacrostructureAgent": {
+      "agent_name": "NarrativeMacrostructureAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058246+00:00",
+      "metrics": {
+        "source": "nlp",
+        "story_grammar_elements": {
+          "setting": 0,
+          "initiating_event": 0,
+          "internal_response": 0,
+          "plan": 0,
+          "consequence": 0,
+          "reaction": 0
+        },
+        "macrostructure_score": 0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "CohesionDeviceAgent": {
+      "agent_name": "CohesionDeviceAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058248+00:00",
+      "metrics": {
+        "source": "nlp",
+        "referential_count": 0,
+        "lexical_count": 0,
+        "conjunctive_count": 0,
+        "cohesion_rate_per_session": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "CausalReasoningAgent": {
+      "agent_name": "CausalReasoningAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058250+00:00",
+      "metrics": {
+        "source": "nlp",
+        "causal_count": 0,
+        "conditional_count": 0,
+        "adversative_count": 0,
+        "connective_rate_per_100_words": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "OrganisationScoreAgent": {
+      "agent_name": "OrganisationScoreAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058252+00:00",
+      "metrics": {
+        "source": "nlp",
+        "planning_marker_count": 0,
+        "repair_marker_count": 0,
+        "planning_ratio": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "ISLAgent": {
+      "agent_name": "ISLAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058254+00:00",
+      "metrics": {
+        "source": "nlp",
+        "emotion_term_rate_per_100_utterances": 0.0,
+        "cognitive_verb_rate_per_100_utterances": 0.0,
+        "first_person_cognitive": 0,
+        "third_person_cognitive": 0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "PerspectiveTakingAgent": {
+      "agent_name": "PerspectiveTakingAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058256+00:00",
+      "metrics": {
+        "source": "nlp",
+        "embedded_clause_count": 0,
+        "mean_embedding_depth": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "ReferenceTrackingAgent": {
+      "agent_name": "ReferenceTrackingAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058258+00:00",
+      "metrics": {
+        "source": "nlp",
+        "total_referring_expressions": 0,
+        "unresolvable_count": 0,
+        "referential_ambiguity_rate": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "ContingentResponseAgent": {
+      "agent_name": "ContingentResponseAgent",
+      "version": "1.0",
+      "transcript_level": "turn_pair",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058259+00:00",
+      "metrics": {
+        "source": "nlp",
+        "contingent_count": 0,
+        "total_pairs": 0,
+        "contingent_rate": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "UtteranceIntonationAgent": {
+      "agent_name": "UtteranceIntonationAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058261+00:00",
+      "metrics": {
+        "source": "nlp",
+        "declarative_ratio": 0.0,
+        "question_ratio": 0.0,
+        "exclamative_ratio": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SemanticTangentialityAgent": {
+      "agent_name": "SemanticTangentialityAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "skipped",
+      "computed_at": "2026-04-21T04:24:26.058263+00:00",
+      "metrics": {
+        "source": "nlp",
+        "skip_reason": "t3_disabled"
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "LCMAbstractionAgent": {
+      "agent_name": "LCMAbstractionAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "skipped",
+      "computed_at": "2026-04-21T04:24:26.058265+00:00",
+      "metrics": {
+        "source": "nlp",
+        "skip_reason": "t3_disabled"
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SarcasmDetectionAgent": {
+      "agent_name": "SarcasmDetectionAgent",
+      "version": "1.0",
+      "transcript_level": "turn_pair",
+      "speaker_scope": "student",
+      "status": "skipped",
+      "computed_at": "2026-04-21T04:24:26.058266+00:00",
+      "metrics": {
+        "source": "nlp",
+        "mismatch_candidates": 0,
+        "gate_threshold": 0.7,
+        "skip_reason": "mismatch_gate_not_met"
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "EmpathyAgent": {
+      "agent_name": "EmpathyAgent",
+      "version": "1.0",
+      "transcript_level": "turn_pair",
+      "speaker_scope": "student",
+      "status": "skipped",
+      "computed_at": "2026-04-21T04:24:26.058268+00:00",
+      "metrics": {
+        "source": "nlp",
+        "alignment_mismatch_candidates": 0,
+        "gate_threshold": 0.7,
+        "skip_reason": "mismatch_gate_not_met"
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "ExecutiveFunctionAgent": {
+      "agent_name": "ExecutiveFunctionAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:24:26.058272+00:00",
+      "metrics": {
+        "source": "nlp",
+        "planning_ratio": 0.0,
+        "repair_ratio": 0.0
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "functional_label": "fallback_mode",
+        "severity": "mild",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "LLM fallback used due to runtime error: Unable to locate credentials",
+        "confidence": 0.5
+      },
+      "evidence": []
+    }
+  },
+  "domains": {
+    "fluency": {
+      "contributing_agents": [
+        "FillerWordAgent",
+        "FalseStartSelfCorrectionAgent",
+        "RepetitionAgent",
+        "DelayedRepetitionAgent",
+        "SpeechRateRhythmAgent"
+      ],
+      "severity": "mild",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.26
+    },
+    "lexical_syntax": {
+      "contributing_agents": [
+        "MLUAgent",
+        "VocabularyDiversityAgent",
+        "NDWAgent",
+        "LexicalDensityAgent",
+        "SentenceComplexityAgent",
+        "AgreementErrorAgent",
+        "PronounReversalAgent",
+        "IdiosyncraticWordAgent"
+      ],
+      "severity": "none",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.0
+    },
+    "semantics": {
+      "contributing_agents": [
+        "SemanticCoherenceAgent",
+        "GlobalCoherenceAgent",
+        "SentimentISLAgent",
+        "SemanticRelationshipAgent",
+        "FigurativeLanguageAgent",
+        "SemanticTangentialityAgent"
+      ],
+      "severity": "mild",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.2
+    },
+    "pragmatics": {
+      "contributing_agents": [
+        "GreetingAgent",
+        "DepartureAgent",
+        "TurnTakingAgent",
+        "InitiationAgent",
+        "QuestionUseAgent",
+        "InformativenessAgent",
+        "PolitenessHedgingAgent",
+        "SarcasmDetectionAgent",
+        "EmpathyAgent"
+      ],
+      "severity": "mild",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.071
+    },
+    "discourse": {
+      "contributing_agents": [
+        "WorkingMemoryAgent",
+        "NarrativeMacrostructureAgent",
+        "CohesionDeviceAgent",
+        "CausalReasoningAgent",
+        "OrganisationScoreAgent",
+        "TopicManagementAgent",
+        "ExecutiveFunctionAgent"
+      ],
+      "severity": "mild",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.143
+    },
+    "social_cognition": {
+      "contributing_agents": [
+        "ISLAgent",
+        "PerspectiveTakingAgent",
+        "ReferenceTrackingAgent",
+        "ContingentResponseAgent",
+        "LCMAbstractionAgent"
+      ],
+      "severity": "none",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.0
+    },
+    "prosody": {
+      "contributing_agents": [
+        "SpeechRateRhythmAgent",
+        "UtteranceIntonationAgent"
+      ],
+      "severity": "none",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.0
+    }
+  },
+  "overall_profile": {
+    "severity_by_domain": {
+      "fluency": "mild",
+      "lexical_syntax": "none",
+      "semantics": "mild",
+      "pragmatics": "mild",
+      "discourse": "mild",
+      "social_cognition": "none",
+      "prosody": "none"
+    },
+    "dominant_area": "fluency",
+    "overall_severity": "mild",
+    "clinical_summary": "The profile reflects mixed performance across pragmatic and discourse functions.",
+    "longitudinal_delta": null,
+    "report_generated_at": "2026-04-21T04:24:26.058436+00:00",
+    "confidence": 0.096
+  },
+  "temporal_summary": {
+    "quartiles": 4,
+    "agent_arcs": {
+      "EmpathyAgent": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SarcasmDetectionAgent": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "TopicManagementAgent": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ExecutiveFunctionAgent": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "prosodic_arc_intensity_mean": [
+      0.5,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flag_density_arc": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "narrative": "Fluency observations were collected with mild disfluency markers. Language form appeared variable across turns. Pragmatic performance showed mixed reciprocal response quality. Prosody-pragmatics alignment was interpreted conservatively due to runtime fallback mode."
+}

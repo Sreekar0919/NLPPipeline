@@ -1,0 +1,6333 @@
+{
+  "schema_version": "1.1",
+  "session": {
+    "session_id": "session_20260421_042359",
+    "student_id": "student_test",
+    "student_age_months": null,
+    "session_type": "SCS",
+    "baseline_session_id": null,
+    "session_duration_s": 166.5
+  },
+  "data_quality": {
+    "valid_input": true,
+    "speaker_diarization_confidence": 0.8,
+    "transcript_word_count": 530,
+    "transcript_utterance_count": 35,
+    "student_utterance_count": 16,
+    "interviewer_utterance_count": 19,
+    "student_word_count": 215,
+    "interviewer_word_count": 315,
+    "speaker_ids": {
+      "interviewer": "SPK_A",
+      "student": "SPK_B"
+    },
+    "issues": [],
+    "flags": [],
+    "processed_at": "2026-04-21T04:23:59.792515+00:00"
+  },
+  "transcript": {
+    "utterances": [
+      {
+        "utterance_id": "utt_001",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "go do you hear",
+        "word_count": 4,
+        "start_time_s": 0.0,
+        "end_time_s": 1.7,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "go",
+            "lemma": "go",
+            "pos": "VERB",
+            "dep": "advcl"
+          },
+          {
+            "index": 1,
+            "text": "do",
+            "lemma": "do",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 2,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 3,
+            "text": "hear",
+            "lemma": "hear",
+            "pos": "VERB",
+            "dep": "ROOT"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_002",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "but in less than five minutes the staircase groaned beneath an extraordinary weight",
+        "word_count": 13,
+        "start_time_s": 2.32,
+        "end_time_s": 5.84,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "but",
+            "lemma": "but",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 1,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 2,
+            "text": "less",
+            "lemma": "less",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 3,
+            "text": "than",
+            "lemma": "than",
+            "pos": "ADP",
+            "dep": "quantmod"
+          },
+          {
+            "index": 4,
+            "text": "five",
+            "lemma": "five",
+            "pos": "NUM",
+            "dep": "nummod"
+          },
+          {
+            "index": 5,
+            "text": "minutes",
+            "lemma": "minute",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 6,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 7,
+            "text": "staircase",
+            "lemma": "staircase",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 8,
+            "text": "groaned",
+            "lemma": "groan",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 9,
+            "text": "beneath",
+            "lemma": "beneath",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 10,
+            "text": "an",
+            "lemma": "an",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 11,
+            "text": "extraordinary",
+            "lemma": "extraordinary",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 12,
+            "text": "weight",
+            "lemma": "weight",
+            "pos": "NOUN",
+            "dep": "pobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_003",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "at this moment the whole soul of the old man seemed centred in his eyes which became bloodshot the veins of the throat swelled his cheeks and temples became purple as though he was struck with epilepsy nothing was wanting to complete this but the utterance of a cry",
+        "word_count": 49,
+        "start_time_s": 6.38,
+        "end_time_s": 19.24,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "at",
+            "lemma": "at",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 1,
+            "text": "this",
+            "lemma": "this",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 2,
+            "text": "moment",
+            "lemma": "moment",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 3,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 4,
+            "text": "whole",
+            "lemma": "whole",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 5,
+            "text": "soul",
+            "lemma": "soul",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 6,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 7,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 8,
+            "text": "old",
+            "lemma": "old",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 9,
+            "text": "man",
+            "lemma": "man",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 10,
+            "text": "seemed",
+            "lemma": "seem",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 11,
+            "text": "centred",
+            "lemma": "centre",
+            "pos": "VERB",
+            "dep": "oprd"
+          },
+          {
+            "index": 12,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 13,
+            "text": "his",
+            "lemma": "his",
+            "pos": "PRON",
+            "dep": "poss"
+          },
+          {
+            "index": 14,
+            "text": "eyes",
+            "lemma": "eye",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 15,
+            "text": "which",
+            "lemma": "which",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 16,
+            "text": "became",
+            "lemma": "become",
+            "pos": "VERB",
+            "dep": "ccomp"
+          },
+          {
+            "index": 17,
+            "text": "bloodshot",
+            "lemma": "bloodshot",
+            "pos": "ADJ",
+            "dep": "acomp"
+          },
+          {
+            "index": 18,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 19,
+            "text": "veins",
+            "lemma": "vein",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 20,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 21,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 22,
+            "text": "throat",
+            "lemma": "throat",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 23,
+            "text": "swelled",
+            "lemma": "swell",
+            "pos": "VERB",
+            "dep": "conj"
+          },
+          {
+            "index": 24,
+            "text": "his",
+            "lemma": "his",
+            "pos": "PRON",
+            "dep": "poss"
+          },
+          {
+            "index": 25,
+            "text": "cheeks",
+            "lemma": "cheek",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 26,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 27,
+            "text": "temples",
+            "lemma": "temple",
+            "pos": "NOUN",
+            "dep": "conj"
+          },
+          {
+            "index": 28,
+            "text": "became",
+            "lemma": "become",
+            "pos": "VERB",
+            "dep": "conj"
+          },
+          {
+            "index": 29,
+            "text": "purple",
+            "lemma": "purple",
+            "pos": "ADJ",
+            "dep": "acomp"
+          },
+          {
+            "index": 30,
+            "text": "as",
+            "lemma": "as",
+            "pos": "SCONJ",
+            "dep": "mark"
+          },
+          {
+            "index": 31,
+            "text": "though",
+            "lemma": "though",
+            "pos": "SCONJ",
+            "dep": "mark"
+          },
+          {
+            "index": 32,
+            "text": "he",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "nsubjpass"
+          },
+          {
+            "index": 33,
+            "text": "was",
+            "lemma": "be",
+            "pos": "AUX",
+            "dep": "auxpass"
+          },
+          {
+            "index": 34,
+            "text": "struck",
+            "lemma": "strike",
+            "pos": "VERB",
+            "dep": "advcl"
+          },
+          {
+            "index": 35,
+            "text": "with",
+            "lemma": "with",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 36,
+            "text": "epilepsy",
+            "lemma": "epilepsy",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 37,
+            "text": "nothing",
+            "lemma": "nothing",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 38,
+            "text": "was",
+            "lemma": "be",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 39,
+            "text": "wanting",
+            "lemma": "want",
+            "pos": "VERB",
+            "dep": "conj"
+          },
+          {
+            "index": 40,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "dep": "aux"
+          },
+          {
+            "index": 41,
+            "text": "complete",
+            "lemma": "complete",
+            "pos": "VERB",
+            "dep": "xcomp"
+          },
+          {
+            "index": 42,
+            "text": "this",
+            "lemma": "this",
+            "pos": "PRON",
+            "dep": "dobj"
+          },
+          {
+            "index": 43,
+            "text": "but",
+            "lemma": "but",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 44,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 45,
+            "text": "utterance",
+            "lemma": "utterance",
+            "pos": "NOUN",
+            "dep": "conj"
+          },
+          {
+            "index": 46,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 47,
+            "text": "a",
+            "lemma": "a",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 48,
+            "text": "cry",
+            "lemma": "cry",
+            "pos": "NOUN",
+            "dep": "pobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_004",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "and the cry issued from his pores if we may thus speak a cry frightful in its silence",
+        "word_count": 18,
+        "start_time_s": 19.88,
+        "end_time_s": 25.96,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 1,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 2,
+            "text": "cry",
+            "lemma": "cry",
+            "pos": "NOUN",
+            "dep": "ROOT"
+          },
+          {
+            "index": 3,
+            "text": "issued",
+            "lemma": "issue",
+            "pos": "VERB",
+            "dep": "acl"
+          },
+          {
+            "index": 4,
+            "text": "from",
+            "lemma": "from",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 5,
+            "text": "his",
+            "lemma": "his",
+            "pos": "PRON",
+            "dep": "poss"
+          },
+          {
+            "index": 6,
+            "text": "pores",
+            "lemma": "pore",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 7,
+            "text": "if",
+            "lemma": "if",
+            "pos": "SCONJ",
+            "dep": "mark"
+          },
+          {
+            "index": 8,
+            "text": "we",
+            "lemma": "we",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 9,
+            "text": "may",
+            "lemma": "may",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 10,
+            "text": "thus",
+            "lemma": "thus",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 11,
+            "text": "speak",
+            "lemma": "speak",
+            "pos": "VERB",
+            "dep": "acl"
+          },
+          {
+            "index": 12,
+            "text": "a",
+            "lemma": "a",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 13,
+            "text": "cry",
+            "lemma": "cry",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 14,
+            "text": "frightful",
+            "lemma": "frightful",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 15,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 16,
+            "text": "its",
+            "lemma": "its",
+            "pos": "PRON",
+            "dep": "poss"
+          },
+          {
+            "index": 17,
+            "text": "silence",
+            "lemma": "silence",
+            "pos": "NOUN",
+            "dep": "pobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_005",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "d'avrigny rushed towards the old man and made him inhale a powerful restorative",
+        "word_count": 13,
+        "start_time_s": 25.96,
+        "end_time_s": 30.44,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "d'avrigny",
+            "lemma": "d'avrigny",
+            "pos": "PROPN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 1,
+            "text": "rushed",
+            "lemma": "rush",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 2,
+            "text": "towards",
+            "lemma": "towards",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 3,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 4,
+            "text": "old",
+            "lemma": "old",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 5,
+            "text": "man",
+            "lemma": "man",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 6,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 7,
+            "text": "made",
+            "lemma": "make",
+            "pos": "VERB",
+            "dep": "conj"
+          },
+          {
+            "index": 8,
+            "text": "him",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 9,
+            "text": "inhale",
+            "lemma": "inhale",
+            "pos": "VERB",
+            "dep": "nsubj"
+          },
+          {
+            "index": 10,
+            "text": "a",
+            "lemma": "a",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 11,
+            "text": "powerful",
+            "lemma": "powerful",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 12,
+            "text": "restorative",
+            "lemma": "restorative",
+            "pos": "NOUN",
+            "dep": "ccomp"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_006",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "d'avrigny unable to bear the sight of this touching emotion turned away and villefort without seeking any further explanation and attracted towards him by the irresistible magnetism which draws us towards those who have loved the people for whom we mourn extended his hand towards the young man",
+        "word_count": 48,
+        "start_time_s": 30.44,
+        "end_time_s": 46.42,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "d'avrigny",
+            "lemma": "d'avrigny",
+            "pos": "PROPN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 1,
+            "text": "unable",
+            "lemma": "unable",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 2,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "dep": "aux"
+          },
+          {
+            "index": 3,
+            "text": "bear",
+            "lemma": "bear",
+            "pos": "VERB",
+            "dep": "xcomp"
+          },
+          {
+            "index": 4,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 5,
+            "text": "sight",
+            "lemma": "sight",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 6,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 7,
+            "text": "this",
+            "lemma": "this",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 8,
+            "text": "touching",
+            "lemma": "touching",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 9,
+            "text": "emotion",
+            "lemma": "emotion",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 10,
+            "text": "turned",
+            "lemma": "turn",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 11,
+            "text": "away",
+            "lemma": "away",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 12,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 13,
+            "text": "villefort",
+            "lemma": "villefort",
+            "pos": "NOUN",
+            "dep": "conj"
+          },
+          {
+            "index": 14,
+            "text": "without",
+            "lemma": "without",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 15,
+            "text": "seeking",
+            "lemma": "seek",
+            "pos": "VERB",
+            "dep": "pcomp"
+          },
+          {
+            "index": 16,
+            "text": "any",
+            "lemma": "any",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 17,
+            "text": "further",
+            "lemma": "further",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 18,
+            "text": "explanation",
+            "lemma": "explanation",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 19,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 20,
+            "text": "attracted",
+            "lemma": "attract",
+            "pos": "VERB",
+            "dep": "conj"
+          },
+          {
+            "index": 21,
+            "text": "towards",
+            "lemma": "towards",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 22,
+            "text": "him",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "pobj"
+          },
+          {
+            "index": 23,
+            "text": "by",
+            "lemma": "by",
+            "pos": "ADP",
+            "dep": "agent"
+          },
+          {
+            "index": 24,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 25,
+            "text": "irresistible",
+            "lemma": "irresistible",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 26,
+            "text": "magnetism",
+            "lemma": "magnetism",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 27,
+            "text": "which",
+            "lemma": "which",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 28,
+            "text": "draws",
+            "lemma": "draw",
+            "pos": "VERB",
+            "dep": "relcl"
+          },
+          {
+            "index": 29,
+            "text": "us",
+            "lemma": "we",
+            "pos": "PRON",
+            "dep": "dobj"
+          },
+          {
+            "index": 30,
+            "text": "towards",
+            "lemma": "towards",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 31,
+            "text": "those",
+            "lemma": "those",
+            "pos": "PRON",
+            "dep": "pobj"
+          },
+          {
+            "index": 32,
+            "text": "who",
+            "lemma": "who",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 33,
+            "text": "have",
+            "lemma": "have",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 34,
+            "text": "loved",
+            "lemma": "love",
+            "pos": "VERB",
+            "dep": "relcl"
+          },
+          {
+            "index": 35,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 36,
+            "text": "people",
+            "lemma": "people",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 37,
+            "text": "for",
+            "lemma": "for",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 38,
+            "text": "whom",
+            "lemma": "whom",
+            "pos": "PRON",
+            "dep": "pobj"
+          },
+          {
+            "index": 39,
+            "text": "we",
+            "lemma": "we",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 40,
+            "text": "mourn",
+            "lemma": "mourn",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 41,
+            "text": "extended",
+            "lemma": "extend",
+            "pos": "VERB",
+            "dep": "conj"
+          },
+          {
+            "index": 42,
+            "text": "his",
+            "lemma": "his",
+            "pos": "PRON",
+            "dep": "poss"
+          },
+          {
+            "index": 43,
+            "text": "hand",
+            "lemma": "hand",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 44,
+            "text": "towards",
+            "lemma": "towards",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 45,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 46,
+            "text": "young",
+            "lemma": "young",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 47,
+            "text": "man",
+            "lemma": "man",
+            "pos": "NOUN",
+            "dep": "pobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_007",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "for some time nothing was heard in that chamber but sobs exclamations and prayers",
+        "word_count": 14,
+        "start_time_s": 47.1,
+        "end_time_s": 51.72,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "for",
+            "lemma": "for",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 1,
+            "text": "some",
+            "lemma": "some",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 2,
+            "text": "time",
+            "lemma": "time",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 3,
+            "text": "nothing",
+            "lemma": "nothing",
+            "pos": "PRON",
+            "dep": "nsubjpass"
+          },
+          {
+            "index": 4,
+            "text": "was",
+            "lemma": "be",
+            "pos": "AUX",
+            "dep": "auxpass"
+          },
+          {
+            "index": 5,
+            "text": "heard",
+            "lemma": "hear",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 6,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 7,
+            "text": "that",
+            "lemma": "that",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 8,
+            "text": "chamber",
+            "lemma": "chamber",
+            "pos": "NOUN",
+            "dep": "nmod"
+          },
+          {
+            "index": 9,
+            "text": "but",
+            "lemma": "but",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 10,
+            "text": "sobs",
+            "lemma": "sobs",
+            "pos": "PROPN",
+            "dep": "conj"
+          },
+          {
+            "index": 11,
+            "text": "exclamations",
+            "lemma": "exclamation",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 12,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 13,
+            "text": "prayers",
+            "lemma": "prayer",
+            "pos": "NOUN",
+            "dep": "conj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_008",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "what do you mean sir",
+        "word_count": 5,
+        "start_time_s": 52.66,
+        "end_time_s": 53.86,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "what",
+            "lemma": "what",
+            "pos": "PRON",
+            "dep": "dobj"
+          },
+          {
+            "index": 1,
+            "text": "do",
+            "lemma": "do",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 2,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 3,
+            "text": "mean",
+            "lemma": "mean",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 4,
+            "text": "sir",
+            "lemma": "sir",
+            "pos": "PROPN",
+            "dep": "npadvmod"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_009",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "oh you rave sir exclaimed villefort in vain endeavoring to escape the net in which he was taken",
+        "word_count": 18,
+        "start_time_s": 54.76,
+        "end_time_s": 59.94,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "oh",
+            "lemma": "oh",
+            "pos": "INTJ",
+            "dep": "intj"
+          },
+          {
+            "index": 1,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 2,
+            "text": "rave",
+            "lemma": "rave",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 3,
+            "text": "sir",
+            "lemma": "sir",
+            "pos": "PROPN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 4,
+            "text": "exclaimed",
+            "lemma": "exclaim",
+            "pos": "VERB",
+            "dep": "ccomp"
+          },
+          {
+            "index": 5,
+            "text": "villefort",
+            "lemma": "villefort",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 6,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 7,
+            "text": "vain",
+            "lemma": "vain",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 8,
+            "text": "endeavoring",
+            "lemma": "endeavoring",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 9,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "dep": "aux"
+          },
+          {
+            "index": 10,
+            "text": "escape",
+            "lemma": "escape",
+            "pos": "VERB",
+            "dep": "advcl"
+          },
+          {
+            "index": 11,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 12,
+            "text": "net",
+            "lemma": "net",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 13,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 14,
+            "text": "which",
+            "lemma": "which",
+            "pos": "PRON",
+            "dep": "pobj"
+          },
+          {
+            "index": 15,
+            "text": "he",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "nsubjpass"
+          },
+          {
+            "index": 16,
+            "text": "was",
+            "lemma": "be",
+            "pos": "AUX",
+            "dep": "auxpass"
+          },
+          {
+            "index": 17,
+            "text": "taken",
+            "lemma": "take",
+            "pos": "VERB",
+            "dep": "relcl"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_010",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "i rave",
+        "word_count": 2,
+        "start_time_s": 60.7,
+        "end_time_s": 61.34,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "i",
+            "lemma": "i",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 1,
+            "text": "rave",
+            "lemma": "rave",
+            "pos": "VERB",
+            "dep": "ROOT"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_011",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "do you know the assassin asked morrel",
+        "word_count": 7,
+        "start_time_s": 61.9,
+        "end_time_s": 65.06,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "do",
+            "lemma": "do",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 1,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 2,
+            "text": "know",
+            "lemma": "know",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 3,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 4,
+            "text": "assassin",
+            "lemma": "assassin",
+            "pos": "PROPN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 5,
+            "text": "asked",
+            "lemma": "ask",
+            "pos": "VERB",
+            "dep": "ccomp"
+          },
+          {
+            "index": 6,
+            "text": "morrel",
+            "lemma": "morrel",
+            "pos": "NOUN",
+            "dep": "dobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_012",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "noirtier looked upon morrel with one of those melancholy smiles which had so often made valentine happy and thus fixed his attention",
+        "word_count": 22,
+        "start_time_s": 65.06,
+        "end_time_s": 71.12,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "noirtier",
+            "lemma": "noirtier",
+            "pos": "PROPN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 1,
+            "text": "looked",
+            "lemma": "look",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 2,
+            "text": "upon",
+            "lemma": "upon",
+            "pos": "SCONJ",
+            "dep": "prep"
+          },
+          {
+            "index": 3,
+            "text": "morrel",
+            "lemma": "morrel",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 4,
+            "text": "with",
+            "lemma": "with",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 5,
+            "text": "one",
+            "lemma": "one",
+            "pos": "NUM",
+            "dep": "pobj"
+          },
+          {
+            "index": 6,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 7,
+            "text": "those",
+            "lemma": "those",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 8,
+            "text": "melancholy",
+            "lemma": "melancholy",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 9,
+            "text": "smiles",
+            "lemma": "smile",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 10,
+            "text": "which",
+            "lemma": "which",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 11,
+            "text": "had",
+            "lemma": "have",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 12,
+            "text": "so",
+            "lemma": "so",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 13,
+            "text": "often",
+            "lemma": "often",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 14,
+            "text": "made",
+            "lemma": "make",
+            "pos": "VERB",
+            "dep": "relcl"
+          },
+          {
+            "index": 15,
+            "text": "valentine",
+            "lemma": "valentine",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 16,
+            "text": "happy",
+            "lemma": "happy",
+            "pos": "ADJ",
+            "dep": "ccomp"
+          },
+          {
+            "index": 17,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 18,
+            "text": "thus",
+            "lemma": "thus",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 19,
+            "text": "fixed",
+            "lemma": "fix",
+            "pos": "VERB",
+            "dep": "conj"
+          },
+          {
+            "index": 20,
+            "text": "his",
+            "lemma": "his",
+            "pos": "PRON",
+            "dep": "poss"
+          },
+          {
+            "index": 21,
+            "text": "attention",
+            "lemma": "attention",
+            "pos": "NOUN",
+            "dep": "dobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_013",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "said morrel sadly",
+        "word_count": 3,
+        "start_time_s": 71.58,
+        "end_time_s": 72.4,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "said",
+            "lemma": "say",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 1,
+            "text": "morrel",
+            "lemma": "morrel",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 2,
+            "text": "sadly",
+            "lemma": "sadly",
+            "pos": "ADV",
+            "dep": "advmod"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_014",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "yes replied noirtier",
+        "word_count": 3,
+        "start_time_s": 73.12,
+        "end_time_s": 74.98,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "yes",
+            "lemma": "yes",
+            "pos": "INTJ",
+            "dep": "intj"
+          },
+          {
+            "index": 1,
+            "text": "replied",
+            "lemma": "reply",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 2,
+            "text": "noirtier",
+            "lemma": "noirtier",
+            "pos": "ADV",
+            "dep": "advmod"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_015",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "the old man's eyes remained fixed on the door",
+        "word_count": 9,
+        "start_time_s": 74.98,
+        "end_time_s": 76.82,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 1,
+            "text": "old",
+            "lemma": "old",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 2,
+            "text": "man",
+            "lemma": "man",
+            "pos": "NOUN",
+            "dep": "poss"
+          },
+          {
+            "index": 3,
+            "text": "'s",
+            "lemma": "'s",
+            "pos": "PART",
+            "dep": "case"
+          },
+          {
+            "index": 4,
+            "text": "eyes",
+            "lemma": "eye",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 5,
+            "text": "remained",
+            "lemma": "remain",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 6,
+            "text": "fixed",
+            "lemma": "fix",
+            "pos": "VERB",
+            "dep": "acomp"
+          },
+          {
+            "index": 7,
+            "text": "on",
+            "lemma": "on",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 8,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 9,
+            "text": "door",
+            "lemma": "door",
+            "pos": "NOUN",
+            "dep": "pobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_016",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "asked morrel yes",
+        "word_count": 3,
+        "start_time_s": 76.82,
+        "end_time_s": 79.02,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "asked",
+            "lemma": "ask",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 1,
+            "text": "morrel",
+            "lemma": "morrel",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 2,
+            "text": "yes",
+            "lemma": "yes",
+            "pos": "INTJ",
+            "dep": "intj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_017",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "must i leave alone",
+        "word_count": 4,
+        "start_time_s": 80.02,
+        "end_time_s": 80.96,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "must",
+            "lemma": "must",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 1,
+            "text": "i",
+            "lemma": "i",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 2,
+            "text": "leave",
+            "lemma": "leave",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 3,
+            "text": "alone",
+            "lemma": "alone",
+            "pos": "ADV",
+            "dep": "advmod"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_018",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "no",
+        "word_count": 1,
+        "start_time_s": 81.68,
+        "end_time_s": 82.12,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "no",
+            "lemma": "no",
+            "pos": "INTJ",
+            "dep": "ROOT"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_019",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "but can he understand you",
+        "word_count": 5,
+        "start_time_s": 82.58,
+        "end_time_s": 84.0,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "but",
+            "lemma": "but",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 1,
+            "text": "can",
+            "lemma": "can",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 2,
+            "text": "he",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 3,
+            "text": "understand",
+            "lemma": "understand",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 4,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "dobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_020",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "yes",
+        "word_count": 1,
+        "start_time_s": 84.66,
+        "end_time_s": 84.88,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "yes",
+            "lemma": "yes",
+            "pos": "INTJ",
+            "dep": "ROOT"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_021",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "gentlemen he said in a hoarse voice give me your word of honor that this horrible secret shall forever remain buried amongst ourselves",
+        "word_count": 23,
+        "start_time_s": 85.76,
+        "end_time_s": 91.86,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "gentlemen",
+            "lemma": "gentleman",
+            "pos": "NOUN",
+            "dep": "npadvmod"
+          },
+          {
+            "index": 1,
+            "text": "he",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 2,
+            "text": "said",
+            "lemma": "say",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 3,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 4,
+            "text": "a",
+            "lemma": "a",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 5,
+            "text": "hoarse",
+            "lemma": "hoarse",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 6,
+            "text": "voice",
+            "lemma": "voice",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 7,
+            "text": "give",
+            "lemma": "give",
+            "pos": "VERB",
+            "dep": "ccomp"
+          },
+          {
+            "index": 8,
+            "text": "me",
+            "lemma": "i",
+            "pos": "PRON",
+            "dep": "dative"
+          },
+          {
+            "index": 9,
+            "text": "your",
+            "lemma": "your",
+            "pos": "PRON",
+            "dep": "poss"
+          },
+          {
+            "index": 10,
+            "text": "word",
+            "lemma": "word",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 11,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 12,
+            "text": "honor",
+            "lemma": "honor",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 13,
+            "text": "that",
+            "lemma": "that",
+            "pos": "SCONJ",
+            "dep": "mark"
+          },
+          {
+            "index": 14,
+            "text": "this",
+            "lemma": "this",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 15,
+            "text": "horrible",
+            "lemma": "horrible",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 16,
+            "text": "secret",
+            "lemma": "secret",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 17,
+            "text": "shall",
+            "lemma": "shall",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 18,
+            "text": "forever",
+            "lemma": "forever",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 19,
+            "text": "remain",
+            "lemma": "remain",
+            "pos": "VERB",
+            "dep": "acl"
+          },
+          {
+            "index": 20,
+            "text": "buried",
+            "lemma": "buried",
+            "pos": "ADJ",
+            "dep": "acomp"
+          },
+          {
+            "index": 21,
+            "text": "amongst",
+            "lemma": "amongst",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 22,
+            "text": "ourselves",
+            "lemma": "ourselves",
+            "pos": "PRON",
+            "dep": "pobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_022",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "the two men drew back",
+        "word_count": 5,
+        "start_time_s": 92.62,
+        "end_time_s": 93.74,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 1,
+            "text": "two",
+            "lemma": "two",
+            "pos": "NUM",
+            "dep": "nummod"
+          },
+          {
+            "index": 2,
+            "text": "men",
+            "lemma": "man",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 3,
+            "text": "drew",
+            "lemma": "draw",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 4,
+            "text": "back",
+            "lemma": "back",
+            "pos": "ADV",
+            "dep": "advmod"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_023",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "my father has revealed the culprit's name my father thirsts for revenge as much as you do yet even he conjures you as i do to keep this secret do you not father",
+        "word_count": 33,
+        "start_time_s": 94.16,
+        "end_time_s": 102.94,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "my",
+            "lemma": "my",
+            "pos": "PRON",
+            "dep": "poss"
+          },
+          {
+            "index": 1,
+            "text": "father",
+            "lemma": "father",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 2,
+            "text": "has",
+            "lemma": "have",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 3,
+            "text": "revealed",
+            "lemma": "reveal",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 4,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 5,
+            "text": "culprit",
+            "lemma": "culprit",
+            "pos": "NOUN",
+            "dep": "poss"
+          },
+          {
+            "index": 6,
+            "text": "'s",
+            "lemma": "'s",
+            "pos": "PART",
+            "dep": "case"
+          },
+          {
+            "index": 7,
+            "text": "name",
+            "lemma": "name",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 8,
+            "text": "my",
+            "lemma": "my",
+            "pos": "PRON",
+            "dep": "poss"
+          },
+          {
+            "index": 9,
+            "text": "father",
+            "lemma": "father",
+            "pos": "NOUN",
+            "dep": "appos"
+          },
+          {
+            "index": 10,
+            "text": "thirsts",
+            "lemma": "thirst",
+            "pos": "NOUN",
+            "dep": "appos"
+          },
+          {
+            "index": 11,
+            "text": "for",
+            "lemma": "for",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 12,
+            "text": "revenge",
+            "lemma": "revenge",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 13,
+            "text": "as",
+            "lemma": "as",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 14,
+            "text": "much",
+            "lemma": "much",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 15,
+            "text": "as",
+            "lemma": "as",
+            "pos": "SCONJ",
+            "dep": "mark"
+          },
+          {
+            "index": 16,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 17,
+            "text": "do",
+            "lemma": "do",
+            "pos": "VERB",
+            "dep": "advcl"
+          },
+          {
+            "index": 18,
+            "text": "yet",
+            "lemma": "yet",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 19,
+            "text": "even",
+            "lemma": "even",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 20,
+            "text": "he",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 21,
+            "text": "conjures",
+            "lemma": "conjure",
+            "pos": "VERB",
+            "dep": "conj"
+          },
+          {
+            "index": 22,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "dobj"
+          },
+          {
+            "index": 23,
+            "text": "as",
+            "lemma": "as",
+            "pos": "SCONJ",
+            "dep": "mark"
+          },
+          {
+            "index": 24,
+            "text": "i",
+            "lemma": "i",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 25,
+            "text": "do",
+            "lemma": "do",
+            "pos": "VERB",
+            "dep": "advcl"
+          },
+          {
+            "index": 26,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "dep": "aux"
+          },
+          {
+            "index": 27,
+            "text": "keep",
+            "lemma": "keep",
+            "pos": "VERB",
+            "dep": "xcomp"
+          },
+          {
+            "index": 28,
+            "text": "this",
+            "lemma": "this",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 29,
+            "text": "secret",
+            "lemma": "secret",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 30,
+            "text": "do",
+            "lemma": "do",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 31,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 32,
+            "text": "not",
+            "lemma": "not",
+            "pos": "PART",
+            "dep": "neg"
+          },
+          {
+            "index": 33,
+            "text": "father",
+            "lemma": "father",
+            "pos": "VERB",
+            "dep": "ccomp"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_024",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "morrel suffered an exclamation of horror and surprise to escape him",
+        "word_count": 11,
+        "start_time_s": 102.94,
+        "end_time_s": 106.72,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "morrel",
+            "lemma": "morrel",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 1,
+            "text": "suffered",
+            "lemma": "suffer",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 2,
+            "text": "an",
+            "lemma": "an",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 3,
+            "text": "exclamation",
+            "lemma": "exclamation",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 4,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 5,
+            "text": "horror",
+            "lemma": "horror",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 6,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 7,
+            "text": "surprise",
+            "lemma": "surprise",
+            "pos": "NOUN",
+            "dep": "conj"
+          },
+          {
+            "index": 8,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "dep": "aux"
+          },
+          {
+            "index": 9,
+            "text": "escape",
+            "lemma": "escape",
+            "pos": "VERB",
+            "dep": "advcl"
+          },
+          {
+            "index": 10,
+            "text": "him",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "dobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_025",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "the old man made a sign in the affirmative",
+        "word_count": 9,
+        "start_time_s": 107.2,
+        "end_time_s": 108.84,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 1,
+            "text": "old",
+            "lemma": "old",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 2,
+            "text": "man",
+            "lemma": "man",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 3,
+            "text": "made",
+            "lemma": "make",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 4,
+            "text": "a",
+            "lemma": "a",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 5,
+            "text": "sign",
+            "lemma": "sign",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 6,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 7,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 8,
+            "text": "affirmative",
+            "lemma": "affirmative",
+            "pos": "ADJ",
+            "dep": "pobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_026",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "it was something terrible to witness the silent agony the mute despair of noirtier whose tears silently rolled down his cheeks",
+        "word_count": 21,
+        "start_time_s": 108.84,
+        "end_time_s": 115.82,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "it",
+            "lemma": "it",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 1,
+            "text": "was",
+            "lemma": "be",
+            "pos": "AUX",
+            "dep": "ROOT"
+          },
+          {
+            "index": 2,
+            "text": "something",
+            "lemma": "something",
+            "pos": "PRON",
+            "dep": "attr"
+          },
+          {
+            "index": 3,
+            "text": "terrible",
+            "lemma": "terrible",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 4,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "dep": "aux"
+          },
+          {
+            "index": 5,
+            "text": "witness",
+            "lemma": "witness",
+            "pos": "VERB",
+            "dep": "xcomp"
+          },
+          {
+            "index": 6,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 7,
+            "text": "silent",
+            "lemma": "silent",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 8,
+            "text": "agony",
+            "lemma": "agony",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 9,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 10,
+            "text": "mute",
+            "lemma": "mute",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 11,
+            "text": "despair",
+            "lemma": "despair",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 12,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 13,
+            "text": "noirtier",
+            "lemma": "noirti",
+            "pos": "ADJ",
+            "dep": "pobj"
+          },
+          {
+            "index": 14,
+            "text": "whose",
+            "lemma": "whose",
+            "pos": "DET",
+            "dep": "poss"
+          },
+          {
+            "index": 15,
+            "text": "tears",
+            "lemma": "tear",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 16,
+            "text": "silently",
+            "lemma": "silently",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 17,
+            "text": "rolled",
+            "lemma": "roll",
+            "pos": "VERB",
+            "dep": "relcl"
+          },
+          {
+            "index": 18,
+            "text": "down",
+            "lemma": "down",
+            "pos": "ADP",
+            "dep": "prt"
+          },
+          {
+            "index": 19,
+            "text": "his",
+            "lemma": "his",
+            "pos": "PRON",
+            "dep": "poss"
+          },
+          {
+            "index": 20,
+            "text": "cheeks",
+            "lemma": "cheek",
+            "pos": "NOUN",
+            "dep": "dobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_027",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "but he stopped on the landing he had not the courage to again visit the death chamber",
+        "word_count": 17,
+        "start_time_s": 116.42,
+        "end_time_s": 120.66,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "but",
+            "lemma": "but",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 1,
+            "text": "he",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 2,
+            "text": "stopped",
+            "lemma": "stop",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 3,
+            "text": "on",
+            "lemma": "on",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 4,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 5,
+            "text": "landing",
+            "lemma": "landing",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 6,
+            "text": "he",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 7,
+            "text": "had",
+            "lemma": "have",
+            "pos": "VERB",
+            "dep": "relcl"
+          },
+          {
+            "index": 8,
+            "text": "not",
+            "lemma": "not",
+            "pos": "PART",
+            "dep": "neg"
+          },
+          {
+            "index": 9,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 10,
+            "text": "courage",
+            "lemma": "courage",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 11,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "dep": "aux"
+          },
+          {
+            "index": 12,
+            "text": "again",
+            "lemma": "again",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 13,
+            "text": "visit",
+            "lemma": "visit",
+            "pos": "VERB",
+            "dep": "acl"
+          },
+          {
+            "index": 14,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 15,
+            "text": "death",
+            "lemma": "death",
+            "pos": "NOUN",
+            "dep": "compound"
+          },
+          {
+            "index": 16,
+            "text": "chamber",
+            "lemma": "chamber",
+            "pos": "NOUN",
+            "dep": "dobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_028",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "the two doctors therefore entered the room alone",
+        "word_count": 8,
+        "start_time_s": 121.36,
+        "end_time_s": 123.3,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 1,
+            "text": "two",
+            "lemma": "two",
+            "pos": "NUM",
+            "dep": "nummod"
+          },
+          {
+            "index": 2,
+            "text": "doctors",
+            "lemma": "doctor",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 3,
+            "text": "therefore",
+            "lemma": "therefore",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 4,
+            "text": "entered",
+            "lemma": "enter",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 5,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 6,
+            "text": "room",
+            "lemma": "room",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 7,
+            "text": "alone",
+            "lemma": "alone",
+            "pos": "ADV",
+            "dep": "advmod"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_029",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "noirtier was near the bed pale motionless and silent as the corpse",
+        "word_count": 12,
+        "start_time_s": 123.3,
+        "end_time_s": 127.84,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "noirtier",
+            "lemma": "noirtier",
+            "pos": "PROPN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 1,
+            "text": "was",
+            "lemma": "be",
+            "pos": "AUX",
+            "dep": "ROOT"
+          },
+          {
+            "index": 2,
+            "text": "near",
+            "lemma": "near",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 3,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 4,
+            "text": "bed",
+            "lemma": "bed",
+            "pos": "NOUN",
+            "dep": "nmod"
+          },
+          {
+            "index": 5,
+            "text": "pale",
+            "lemma": "pale",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 6,
+            "text": "motionless",
+            "lemma": "motionless",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 7,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 8,
+            "text": "silent",
+            "lemma": "silent",
+            "pos": "ADJ",
+            "dep": "acomp"
+          },
+          {
+            "index": 9,
+            "text": "as",
+            "lemma": "as",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 10,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 11,
+            "text": "corpse",
+            "lemma": "corpse",
+            "pos": "NOUN",
+            "dep": "pobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_030",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "the district doctor approached with the indifference of a man accustomed to spend half his time amongst the dead he then lifted the sheet which was placed over the face and just unclosed the lips",
+        "word_count": 35,
+        "start_time_s": 128.479,
+        "end_time_s": 138.18,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 1,
+            "text": "district",
+            "lemma": "district",
+            "pos": "NOUN",
+            "dep": "compound"
+          },
+          {
+            "index": 2,
+            "text": "doctor",
+            "lemma": "doctor",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 3,
+            "text": "approached",
+            "lemma": "approach",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 4,
+            "text": "with",
+            "lemma": "with",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 5,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 6,
+            "text": "indifference",
+            "lemma": "indifference",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 7,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 8,
+            "text": "a",
+            "lemma": "a",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 9,
+            "text": "man",
+            "lemma": "man",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 10,
+            "text": "accustomed",
+            "lemma": "accustomed",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 11,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "dep": "aux"
+          },
+          {
+            "index": 12,
+            "text": "spend",
+            "lemma": "spend",
+            "pos": "VERB",
+            "dep": "xcomp"
+          },
+          {
+            "index": 13,
+            "text": "half",
+            "lemma": "half",
+            "pos": "DET",
+            "dep": "predet"
+          },
+          {
+            "index": 14,
+            "text": "his",
+            "lemma": "his",
+            "pos": "PRON",
+            "dep": "poss"
+          },
+          {
+            "index": 15,
+            "text": "time",
+            "lemma": "time",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 16,
+            "text": "amongst",
+            "lemma": "amongst",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 17,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 18,
+            "text": "dead",
+            "lemma": "dead",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 19,
+            "text": "he",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 20,
+            "text": "then",
+            "lemma": "then",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 21,
+            "text": "lifted",
+            "lemma": "lift",
+            "pos": "VERB",
+            "dep": "conj"
+          },
+          {
+            "index": 22,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 23,
+            "text": "sheet",
+            "lemma": "sheet",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 24,
+            "text": "which",
+            "lemma": "which",
+            "pos": "PRON",
+            "dep": "nsubjpass"
+          },
+          {
+            "index": 25,
+            "text": "was",
+            "lemma": "be",
+            "pos": "AUX",
+            "dep": "auxpass"
+          },
+          {
+            "index": 26,
+            "text": "placed",
+            "lemma": "place",
+            "pos": "VERB",
+            "dep": "relcl"
+          },
+          {
+            "index": 27,
+            "text": "over",
+            "lemma": "over",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 28,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 29,
+            "text": "face",
+            "lemma": "face",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 30,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 31,
+            "text": "just",
+            "lemma": "just",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 32,
+            "text": "unclosed",
+            "lemma": "unclose",
+            "pos": "VERB",
+            "dep": "conj"
+          },
+          {
+            "index": 33,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 34,
+            "text": "lips",
+            "lemma": "lip",
+            "pos": "NOUN",
+            "dep": "dobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_031",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "the nearest said the district doctor is a good italian abbe who lives next door to you shall i call on him as i pass",
+        "word_count": 25,
+        "start_time_s": 139.04,
+        "end_time_s": 144.36,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 1,
+            "text": "nearest",
+            "lemma": "near",
+            "pos": "ADJ",
+            "dep": "nsubj"
+          },
+          {
+            "index": 2,
+            "text": "said",
+            "lemma": "say",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 3,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 4,
+            "text": "district",
+            "lemma": "district",
+            "pos": "NOUN",
+            "dep": "compound"
+          },
+          {
+            "index": 5,
+            "text": "doctor",
+            "lemma": "doctor",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 6,
+            "text": "is",
+            "lemma": "be",
+            "pos": "AUX",
+            "dep": "ccomp"
+          },
+          {
+            "index": 7,
+            "text": "a",
+            "lemma": "a",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 8,
+            "text": "good",
+            "lemma": "good",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 9,
+            "text": "italian",
+            "lemma": "italian",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 10,
+            "text": "abbe",
+            "lemma": "abbe",
+            "pos": "NOUN",
+            "dep": "attr"
+          },
+          {
+            "index": 11,
+            "text": "who",
+            "lemma": "who",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 12,
+            "text": "lives",
+            "lemma": "live",
+            "pos": "VERB",
+            "dep": "relcl"
+          },
+          {
+            "index": 13,
+            "text": "next",
+            "lemma": "next",
+            "pos": "ADJ",
+            "dep": "amod"
+          },
+          {
+            "index": 14,
+            "text": "door",
+            "lemma": "door",
+            "pos": "NOUN",
+            "dep": "npadvmod"
+          },
+          {
+            "index": 15,
+            "text": "to",
+            "lemma": "to",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 16,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "pobj"
+          },
+          {
+            "index": 17,
+            "text": "shall",
+            "lemma": "shall",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 18,
+            "text": "i",
+            "lemma": "i",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 19,
+            "text": "call",
+            "lemma": "call",
+            "pos": "VERB",
+            "dep": "ccomp"
+          },
+          {
+            "index": 20,
+            "text": "on",
+            "lemma": "on",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 21,
+            "text": "him",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "pobj"
+          },
+          {
+            "index": 22,
+            "text": "as",
+            "lemma": "as",
+            "pos": "SCONJ",
+            "dep": "mark"
+          },
+          {
+            "index": 23,
+            "text": "i",
+            "lemma": "i",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 24,
+            "text": "pass",
+            "lemma": "pass",
+            "pos": "VERB",
+            "dep": "advcl"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_032",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "d'avrigny said villefort be so kind i beseech you as to accompany this gentleman here is the key of the door so that you can go in and out as you please you will bring the priest with you and will oblige me by introducing him into my child's room",
+        "word_count": 50,
+        "start_time_s": 144.36,
+        "end_time_s": 157.2,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "d'avrigny",
+            "lemma": "d'avrigny",
+            "pos": "PROPN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 1,
+            "text": "said",
+            "lemma": "say",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 2,
+            "text": "villefort",
+            "lemma": "villefort",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 3,
+            "text": "be",
+            "lemma": "be",
+            "pos": "AUX",
+            "dep": "ccomp"
+          },
+          {
+            "index": 4,
+            "text": "so",
+            "lemma": "so",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 5,
+            "text": "kind",
+            "lemma": "kind",
+            "pos": "ADV",
+            "dep": "acomp"
+          },
+          {
+            "index": 6,
+            "text": "i",
+            "lemma": "i",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 7,
+            "text": "beseech",
+            "lemma": "beseech",
+            "pos": "VERB",
+            "dep": "ccomp"
+          },
+          {
+            "index": 8,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "dobj"
+          },
+          {
+            "index": 9,
+            "text": "as",
+            "lemma": "as",
+            "pos": "SCONJ",
+            "dep": "mark"
+          },
+          {
+            "index": 10,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "dep": "aux"
+          },
+          {
+            "index": 11,
+            "text": "accompany",
+            "lemma": "accompany",
+            "pos": "VERB",
+            "dep": "advcl"
+          },
+          {
+            "index": 12,
+            "text": "this",
+            "lemma": "this",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 13,
+            "text": "gentleman",
+            "lemma": "gentleman",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 14,
+            "text": "here",
+            "lemma": "here",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 15,
+            "text": "is",
+            "lemma": "be",
+            "pos": "AUX",
+            "dep": "ccomp"
+          },
+          {
+            "index": 16,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 17,
+            "text": "key",
+            "lemma": "key",
+            "pos": "NOUN",
+            "dep": "attr"
+          },
+          {
+            "index": 18,
+            "text": "of",
+            "lemma": "of",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 19,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 20,
+            "text": "door",
+            "lemma": "door",
+            "pos": "NOUN",
+            "dep": "pobj"
+          },
+          {
+            "index": 21,
+            "text": "so",
+            "lemma": "so",
+            "pos": "SCONJ",
+            "dep": "mark"
+          },
+          {
+            "index": 22,
+            "text": "that",
+            "lemma": "that",
+            "pos": "SCONJ",
+            "dep": "mark"
+          },
+          {
+            "index": 23,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 24,
+            "text": "can",
+            "lemma": "can",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 25,
+            "text": "go",
+            "lemma": "go",
+            "pos": "VERB",
+            "dep": "advcl"
+          },
+          {
+            "index": 26,
+            "text": "in",
+            "lemma": "in",
+            "pos": "ADP",
+            "dep": "advmod"
+          },
+          {
+            "index": 27,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 28,
+            "text": "out",
+            "lemma": "out",
+            "pos": "ADV",
+            "dep": "conj"
+          },
+          {
+            "index": 29,
+            "text": "as",
+            "lemma": "as",
+            "pos": "SCONJ",
+            "dep": "mark"
+          },
+          {
+            "index": 30,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 31,
+            "text": "please",
+            "lemma": "please",
+            "pos": "INTJ",
+            "dep": "intj"
+          },
+          {
+            "index": 32,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 33,
+            "text": "will",
+            "lemma": "will",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 34,
+            "text": "bring",
+            "lemma": "bring",
+            "pos": "VERB",
+            "dep": "ccomp"
+          },
+          {
+            "index": 35,
+            "text": "the",
+            "lemma": "the",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 36,
+            "text": "priest",
+            "lemma": "priest",
+            "pos": "NOUN",
+            "dep": "dobj"
+          },
+          {
+            "index": 37,
+            "text": "with",
+            "lemma": "with",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 38,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "pobj"
+          },
+          {
+            "index": 39,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 40,
+            "text": "will",
+            "lemma": "will",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 41,
+            "text": "oblige",
+            "lemma": "oblige",
+            "pos": "VERB",
+            "dep": "conj"
+          },
+          {
+            "index": 42,
+            "text": "me",
+            "lemma": "i",
+            "pos": "PRON",
+            "dep": "dobj"
+          },
+          {
+            "index": 43,
+            "text": "by",
+            "lemma": "by",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 44,
+            "text": "introducing",
+            "lemma": "introduce",
+            "pos": "VERB",
+            "dep": "pcomp"
+          },
+          {
+            "index": 45,
+            "text": "him",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "dobj"
+          },
+          {
+            "index": 46,
+            "text": "into",
+            "lemma": "into",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 47,
+            "text": "my",
+            "lemma": "my",
+            "pos": "PRON",
+            "dep": "poss"
+          },
+          {
+            "index": 48,
+            "text": "child",
+            "lemma": "child",
+            "pos": "NOUN",
+            "dep": "poss"
+          },
+          {
+            "index": 49,
+            "text": "'s",
+            "lemma": "'s",
+            "pos": "PART",
+            "dep": "case"
+          },
+          {
+            "index": 50,
+            "text": "room",
+            "lemma": "room",
+            "pos": "NOUN",
+            "dep": "pobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_033",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "do you wish to see him",
+        "word_count": 6,
+        "start_time_s": 157.82,
+        "end_time_s": 158.66,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "do",
+            "lemma": "do",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 1,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 2,
+            "text": "wish",
+            "lemma": "wish",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 3,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "dep": "aux"
+          },
+          {
+            "index": 4,
+            "text": "see",
+            "lemma": "see",
+            "pos": "VERB",
+            "dep": "xcomp"
+          },
+          {
+            "index": 5,
+            "text": "him",
+            "lemma": "he",
+            "pos": "PRON",
+            "dep": "dobj"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_034",
+        "speaker_id": "SPK_B",
+        "speaker_role": "student",
+        "text": "i only wish to be alone you will excuse me will you not",
+        "word_count": 13,
+        "start_time_s": 159.14,
+        "end_time_s": 161.64,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "i",
+            "lemma": "i",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 1,
+            "text": "only",
+            "lemma": "only",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 2,
+            "text": "wish",
+            "lemma": "wish",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 3,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "dep": "aux"
+          },
+          {
+            "index": 4,
+            "text": "be",
+            "lemma": "be",
+            "pos": "AUX",
+            "dep": "xcomp"
+          },
+          {
+            "index": 5,
+            "text": "alone",
+            "lemma": "alone",
+            "pos": "ADJ",
+            "dep": "acomp"
+          },
+          {
+            "index": 6,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 7,
+            "text": "will",
+            "lemma": "will",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 8,
+            "text": "excuse",
+            "lemma": "excuse",
+            "pos": "VERB",
+            "dep": "ccomp"
+          },
+          {
+            "index": 9,
+            "text": "me",
+            "lemma": "i",
+            "pos": "PRON",
+            "dep": "dobj"
+          },
+          {
+            "index": 10,
+            "text": "will",
+            "lemma": "will",
+            "pos": "AUX",
+            "dep": "ROOT"
+          },
+          {
+            "index": 11,
+            "text": "you",
+            "lemma": "you",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 12,
+            "text": "not",
+            "lemma": "not",
+            "pos": "PART",
+            "dep": "neg"
+          }
+        ]
+      },
+      {
+        "utterance_id": "utt_035",
+        "speaker_id": "SPK_A",
+        "speaker_role": "interviewer",
+        "text": "i am going sir and i do not hesitate to say that no prayers will be more fervent than mine",
+        "word_count": 20,
+        "start_time_s": 162.2,
+        "end_time_s": 166.5,
+        "tokens": [
+          {
+            "index": 0,
+            "text": "i",
+            "lemma": "i",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 1,
+            "text": "am",
+            "lemma": "be",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 2,
+            "text": "going",
+            "lemma": "go",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 3,
+            "text": "sir",
+            "lemma": "sir",
+            "pos": "NOUN",
+            "dep": "npadvmod"
+          },
+          {
+            "index": 4,
+            "text": "and",
+            "lemma": "and",
+            "pos": "CCONJ",
+            "dep": "cc"
+          },
+          {
+            "index": 5,
+            "text": "i",
+            "lemma": "i",
+            "pos": "PRON",
+            "dep": "nsubj"
+          },
+          {
+            "index": 6,
+            "text": "do",
+            "lemma": "do",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 7,
+            "text": "not",
+            "lemma": "not",
+            "pos": "PART",
+            "dep": "neg"
+          },
+          {
+            "index": 8,
+            "text": "hesitate",
+            "lemma": "hesitate",
+            "pos": "VERB",
+            "dep": "ROOT"
+          },
+          {
+            "index": 9,
+            "text": "to",
+            "lemma": "to",
+            "pos": "PART",
+            "dep": "aux"
+          },
+          {
+            "index": 10,
+            "text": "say",
+            "lemma": "say",
+            "pos": "VERB",
+            "dep": "xcomp"
+          },
+          {
+            "index": 11,
+            "text": "that",
+            "lemma": "that",
+            "pos": "SCONJ",
+            "dep": "mark"
+          },
+          {
+            "index": 12,
+            "text": "no",
+            "lemma": "no",
+            "pos": "DET",
+            "dep": "det"
+          },
+          {
+            "index": 13,
+            "text": "prayers",
+            "lemma": "prayer",
+            "pos": "NOUN",
+            "dep": "nsubj"
+          },
+          {
+            "index": 14,
+            "text": "will",
+            "lemma": "will",
+            "pos": "AUX",
+            "dep": "aux"
+          },
+          {
+            "index": 15,
+            "text": "be",
+            "lemma": "be",
+            "pos": "AUX",
+            "dep": "ccomp"
+          },
+          {
+            "index": 16,
+            "text": "more",
+            "lemma": "more",
+            "pos": "ADV",
+            "dep": "advmod"
+          },
+          {
+            "index": 17,
+            "text": "fervent",
+            "lemma": "fervent",
+            "pos": "ADJ",
+            "dep": "acomp"
+          },
+          {
+            "index": 18,
+            "text": "than",
+            "lemma": "than",
+            "pos": "ADP",
+            "dep": "prep"
+          },
+          {
+            "index": 19,
+            "text": "mine",
+            "lemma": "mine",
+            "pos": "NOUN",
+            "dep": "pobj"
+          }
+        ]
+      }
+    ]
+  },
+  "feature_store": {
+    "computed_by": "phase_0_nlp",
+    "tools_used": [
+      "rule_based_mvp"
+    ],
+    "per_utterance": {
+      "utt_001": {
+        "speaker_role": "interviewer",
+        "word_count": 4,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "VERB": 2,
+          "AUX": 1,
+          "PRON": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_002": {
+        "speaker_role": "student",
+        "word_count": 13,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "CCONJ": 1,
+          "ADP": 3,
+          "ADJ": 2,
+          "NUM": 1,
+          "NOUN": 3,
+          "DET": 2,
+          "VERB": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_003": {
+        "speaker_role": "interviewer",
+        "word_count": 49,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "ADP": 6,
+          "DET": 7,
+          "NOUN": 11,
+          "ADJ": 4,
+          "VERB": 8,
+          "PRON": 6,
+          "CCONJ": 2,
+          "SCONJ": 2,
+          "AUX": 2,
+          "PART": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_004": {
+        "speaker_role": "student",
+        "word_count": 18,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "CCONJ": 1,
+          "DET": 2,
+          "NOUN": 4,
+          "VERB": 2,
+          "ADP": 2,
+          "PRON": 3,
+          "SCONJ": 1,
+          "AUX": 1,
+          "ADV": 1,
+          "ADJ": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_005": {
+        "speaker_role": "interviewer",
+        "word_count": 13,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "PROPN": 1,
+          "VERB": 3,
+          "ADP": 1,
+          "DET": 2,
+          "ADJ": 2,
+          "NOUN": 2,
+          "CCONJ": 1,
+          "PRON": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_006": {
+        "speaker_role": "student",
+        "word_count": 48,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "PROPN": 1,
+          "ADJ": 5,
+          "PART": 1,
+          "VERB": 7,
+          "DET": 6,
+          "NOUN": 8,
+          "ADP": 7,
+          "ADV": 1,
+          "CCONJ": 2,
+          "PRON": 8,
+          "AUX": 2
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_007": {
+        "speaker_role": "interviewer",
+        "word_count": 14,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "ADP": 2,
+          "DET": 2,
+          "NOUN": 4,
+          "PRON": 1,
+          "AUX": 1,
+          "VERB": 1,
+          "CCONJ": 2,
+          "PROPN": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_008": {
+        "speaker_role": "student",
+        "word_count": 5,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "PRON": 2,
+          "AUX": 1,
+          "VERB": 1,
+          "PROPN": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_009": {
+        "speaker_role": "interviewer",
+        "word_count": 18,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "INTJ": 1,
+          "PRON": 3,
+          "VERB": 4,
+          "PROPN": 1,
+          "NOUN": 3,
+          "ADP": 2,
+          "ADJ": 1,
+          "PART": 1,
+          "DET": 1,
+          "AUX": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_010": {
+        "speaker_role": "interviewer",
+        "word_count": 2,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "PRON": 1,
+          "VERB": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_011": {
+        "speaker_role": "student",
+        "word_count": 7,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "AUX": 1,
+          "PRON": 1,
+          "VERB": 2,
+          "DET": 1,
+          "PROPN": 1,
+          "NOUN": 1
+        },
+        "filler_hits": [
+          "you know"
+        ],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_012": {
+        "speaker_role": "interviewer",
+        "word_count": 22,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "PROPN": 1,
+          "VERB": 3,
+          "SCONJ": 1,
+          "NOUN": 4,
+          "ADP": 2,
+          "NUM": 1,
+          "DET": 1,
+          "ADJ": 2,
+          "PRON": 2,
+          "AUX": 1,
+          "ADV": 3,
+          "CCONJ": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_013": {
+        "speaker_role": "student",
+        "word_count": 3,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "VERB": 1,
+          "NOUN": 1,
+          "ADV": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_014": {
+        "speaker_role": "student",
+        "word_count": 3,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "INTJ": 1,
+          "VERB": 1,
+          "ADV": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_015": {
+        "speaker_role": "interviewer",
+        "word_count": 9,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "DET": 2,
+          "ADJ": 1,
+          "NOUN": 3,
+          "PART": 1,
+          "VERB": 2,
+          "ADP": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_016": {
+        "speaker_role": "student",
+        "word_count": 3,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "VERB": 1,
+          "NOUN": 1,
+          "INTJ": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_017": {
+        "speaker_role": "interviewer",
+        "word_count": 4,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "AUX": 1,
+          "PRON": 1,
+          "VERB": 1,
+          "ADV": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_018": {
+        "speaker_role": "interviewer",
+        "word_count": 1,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "INTJ": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_019": {
+        "speaker_role": "student",
+        "word_count": 5,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "CCONJ": 1,
+          "AUX": 1,
+          "PRON": 2,
+          "VERB": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_020": {
+        "speaker_role": "student",
+        "word_count": 1,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "INTJ": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_021": {
+        "speaker_role": "interviewer",
+        "word_count": 23,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "NOUN": 5,
+          "PRON": 4,
+          "VERB": 3,
+          "ADP": 3,
+          "DET": 2,
+          "ADJ": 3,
+          "SCONJ": 1,
+          "AUX": 1,
+          "ADV": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_022": {
+        "speaker_role": "interviewer",
+        "word_count": 5,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "DET": 1,
+          "NUM": 1,
+          "NOUN": 1,
+          "VERB": 1,
+          "ADV": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_023": {
+        "speaker_role": "student",
+        "word_count": 33,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "PRON": 7,
+          "NOUN": 7,
+          "AUX": 2,
+          "VERB": 6,
+          "DET": 2,
+          "PART": 3,
+          "ADP": 1,
+          "ADV": 4,
+          "SCONJ": 2
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_024": {
+        "speaker_role": "interviewer",
+        "word_count": 11,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "NOUN": 4,
+          "VERB": 2,
+          "DET": 1,
+          "ADP": 1,
+          "CCONJ": 1,
+          "PART": 1,
+          "PRON": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_025": {
+        "speaker_role": "student",
+        "word_count": 9,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "DET": 3,
+          "ADJ": 2,
+          "NOUN": 2,
+          "VERB": 1,
+          "ADP": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_026": {
+        "speaker_role": "interviewer",
+        "word_count": 21,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "PRON": 3,
+          "AUX": 1,
+          "ADJ": 4,
+          "PART": 1,
+          "VERB": 2,
+          "DET": 3,
+          "NOUN": 4,
+          "ADP": 2,
+          "ADV": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_027": {
+        "speaker_role": "student",
+        "word_count": 17,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "CCONJ": 1,
+          "PRON": 2,
+          "VERB": 3,
+          "ADP": 1,
+          "DET": 3,
+          "NOUN": 4,
+          "PART": 2,
+          "ADV": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_028": {
+        "speaker_role": "interviewer",
+        "word_count": 8,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "DET": 2,
+          "NUM": 1,
+          "NOUN": 2,
+          "ADV": 2,
+          "VERB": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_029": {
+        "speaker_role": "student",
+        "word_count": 12,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "PROPN": 1,
+          "AUX": 1,
+          "ADP": 2,
+          "DET": 2,
+          "NOUN": 3,
+          "ADJ": 2,
+          "CCONJ": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_030": {
+        "speaker_role": "interviewer",
+        "word_count": 35,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "DET": 8,
+          "NOUN": 9,
+          "VERB": 5,
+          "ADP": 4,
+          "ADJ": 1,
+          "PART": 1,
+          "PRON": 3,
+          "ADV": 2,
+          "AUX": 1,
+          "CCONJ": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_031": {
+        "speaker_role": "student",
+        "word_count": 25,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "DET": 3,
+          "ADJ": 4,
+          "VERB": 4,
+          "NOUN": 4,
+          "AUX": 2,
+          "PRON": 5,
+          "ADP": 2,
+          "SCONJ": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_032": {
+        "speaker_role": "interviewer",
+        "word_count": 50,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "PROPN": 1,
+          "VERB": 7,
+          "NOUN": 7,
+          "AUX": 5,
+          "ADV": 4,
+          "PRON": 9,
+          "SCONJ": 4,
+          "PART": 2,
+          "DET": 4,
+          "ADP": 5,
+          "CCONJ": 2,
+          "INTJ": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_033": {
+        "speaker_role": "interviewer",
+        "word_count": 6,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "AUX": 1,
+          "PRON": 2,
+          "VERB": 2,
+          "PART": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_034": {
+        "speaker_role": "student",
+        "word_count": 13,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "PRON": 4,
+          "ADV": 1,
+          "VERB": 2,
+          "PART": 2,
+          "AUX": 3,
+          "ADJ": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      },
+      "utt_035": {
+        "speaker_role": "interviewer",
+        "word_count": 20,
+        "sentence_count": 1,
+        "sentence_types": [
+          "simple"
+        ],
+        "pos_counts": {
+          "PRON": 2,
+          "AUX": 4,
+          "VERB": 3,
+          "NOUN": 3,
+          "CCONJ": 1,
+          "PART": 2,
+          "SCONJ": 1,
+          "DET": 1,
+          "ADV": 1,
+          "ADJ": 1,
+          "ADP": 1
+        },
+        "filler_hits": [],
+        "false_start_hits": [],
+        "repetition_hits": [],
+        "question": false,
+        "morphology": {
+          "verb_tenses": [],
+          "agreement_errors": []
+        }
+      }
+    },
+    "speaker_level": {
+      "SPK_A": {
+        "total_words": 315,
+        "total_utterances": 19,
+        "avg_utterance_length_words": 16.579,
+        "ttr": 0.5868,
+        "mattr_window_50": 0.5868,
+        "unique_words": 186,
+        "sentence_type_counts": {
+          "simple": 19
+        },
+        "avg_sentence_length_words": 16.579,
+        "total_fillers": 0,
+        "filler_rate_per_100_words": 0.0,
+        "fillers_by_type": {},
+        "total_false_starts": 0,
+        "total_repetitions": 0,
+        "total_questions_asked": 0,
+        "total_turns": 19
+      },
+      "SPK_B": {
+        "total_words": 215,
+        "total_utterances": 16,
+        "avg_utterance_length_words": 13.438,
+        "ttr": 0.6528,
+        "mattr_window_50": 0.6528,
+        "unique_words": 141,
+        "sentence_type_counts": {
+          "simple": 16
+        },
+        "avg_sentence_length_words": 13.438,
+        "total_fillers": 1,
+        "filler_rate_per_100_words": 0.465,
+        "fillers_by_type": {
+          "you know": 1
+        },
+        "total_false_starts": 0,
+        "total_repetitions": 0,
+        "total_questions_asked": 0,
+        "total_turns": 16
+      }
+    },
+    "turn_pairs": [
+      {
+        "turn_pair_id": "tp_001",
+        "interviewer_utterance_id": "utt_001",
+        "student_utterance_id": "utt_002",
+        "interviewer_word_count": 4,
+        "student_word_count": 13,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      },
+      {
+        "turn_pair_id": "tp_002",
+        "interviewer_utterance_id": "utt_003",
+        "student_utterance_id": "utt_004",
+        "interviewer_word_count": 49,
+        "student_word_count": 18,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      },
+      {
+        "turn_pair_id": "tp_003",
+        "interviewer_utterance_id": "utt_005",
+        "student_utterance_id": "utt_006",
+        "interviewer_word_count": 13,
+        "student_word_count": 48,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      },
+      {
+        "turn_pair_id": "tp_004",
+        "interviewer_utterance_id": "utt_007",
+        "student_utterance_id": "utt_008",
+        "interviewer_word_count": 14,
+        "student_word_count": 5,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      },
+      {
+        "turn_pair_id": "tp_005",
+        "interviewer_utterance_id": "utt_010",
+        "student_utterance_id": "utt_011",
+        "interviewer_word_count": 2,
+        "student_word_count": 7,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      },
+      {
+        "turn_pair_id": "tp_006",
+        "interviewer_utterance_id": "utt_012",
+        "student_utterance_id": "utt_013",
+        "interviewer_word_count": 22,
+        "student_word_count": 3,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      },
+      {
+        "turn_pair_id": "tp_007",
+        "interviewer_utterance_id": "utt_015",
+        "student_utterance_id": "utt_016",
+        "interviewer_word_count": 9,
+        "student_word_count": 3,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      },
+      {
+        "turn_pair_id": "tp_008",
+        "interviewer_utterance_id": "utt_018",
+        "student_utterance_id": "utt_019",
+        "interviewer_word_count": 1,
+        "student_word_count": 5,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      },
+      {
+        "turn_pair_id": "tp_009",
+        "interviewer_utterance_id": "utt_022",
+        "student_utterance_id": "utt_023",
+        "interviewer_word_count": 5,
+        "student_word_count": 33,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      },
+      {
+        "turn_pair_id": "tp_010",
+        "interviewer_utterance_id": "utt_024",
+        "student_utterance_id": "utt_025",
+        "interviewer_word_count": 11,
+        "student_word_count": 9,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      },
+      {
+        "turn_pair_id": "tp_011",
+        "interviewer_utterance_id": "utt_026",
+        "student_utterance_id": "utt_027",
+        "interviewer_word_count": 21,
+        "student_word_count": 17,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      },
+      {
+        "turn_pair_id": "tp_012",
+        "interviewer_utterance_id": "utt_028",
+        "student_utterance_id": "utt_029",
+        "interviewer_word_count": 8,
+        "student_word_count": 12,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      },
+      {
+        "turn_pair_id": "tp_013",
+        "interviewer_utterance_id": "utt_030",
+        "student_utterance_id": "utt_031",
+        "interviewer_word_count": 35,
+        "student_word_count": 25,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      },
+      {
+        "turn_pair_id": "tp_014",
+        "interviewer_utterance_id": "utt_033",
+        "student_utterance_id": "utt_034",
+        "interviewer_word_count": 6,
+        "student_word_count": 13,
+        "interviewer_asked_question": false,
+        "student_asked_question": false,
+        "student_initiated": true
+      }
+    ],
+    "full_transcript": {
+      "total_words": 530,
+      "total_turns": 35,
+      "turn_balance_ratio": 0.684,
+      "word_balance_ratio": 0.683,
+      "interruptions": 0,
+      "greeting_present": false,
+      "departure_present": false,
+      "topic_transition_count": 0,
+      "session_duration_s": 166.5
+    }
+  },
+  "topic_segments": {
+    "computed_by": "phase_1_llm",
+    "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+    "greeting": {
+      "present": true,
+      "utterance_ids": [
+        "utt_001",
+        "utt_002"
+      ]
+    },
+    "topics": [
+      {
+        "topic_id": "topic_001",
+        "label": "general_conversation",
+        "utterance_ids": [
+          "utt_003",
+          "utt_004",
+          "utt_005",
+          "utt_006",
+          "utt_007",
+          "utt_008",
+          "utt_009",
+          "utt_010",
+          "utt_011",
+          "utt_012",
+          "utt_013",
+          "utt_014",
+          "utt_015",
+          "utt_016",
+          "utt_017",
+          "utt_018",
+          "utt_019",
+          "utt_020",
+          "utt_021",
+          "utt_022",
+          "utt_023",
+          "utt_024",
+          "utt_025",
+          "utt_026",
+          "utt_027",
+          "utt_028",
+          "utt_029",
+          "utt_030",
+          "utt_031",
+          "utt_032",
+          "utt_033"
+        ],
+        "initiated_by": "interviewer"
+      }
+    ],
+    "departure": {
+      "present": true,
+      "utterance_ids": [
+        "utt_034",
+        "utt_035"
+      ]
+    },
+    "confidence": 0.65
+  },
+  "agents": {
+    "FillerWordAgent": {
+      "agent_name": "FillerWordAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.789181+00:00",
+      "metrics": {
+        "source": "nlp",
+        "total_fillers": 1,
+        "phonological_fillers": 0,
+        "lexical_fillers": 1,
+        "filler_rate_per_100_words": 0.463
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "rule",
+        "functional_label": "fluency_load",
+        "severity": "none",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "Separated phonological and lexical fillers to prevent pragmatic confounding.",
+        "confidence": 0.8
+      },
+      "evidence": [
+        {
+          "evidence_type": "token_instance",
+          "utterance_id": "utt_011",
+          "utterance_text": "do you know the assassin asked morrel",
+          "start_ms": 61900,
+          "end_ms": 65060,
+          "char_start": 0,
+          "char_end": 0,
+          "surface": "",
+          "feature_type": "",
+          "position_in_utterance": "",
+          "llm_note": ""
+        },
+        {
+          "evidence_type": "token_instance",
+          "utterance_id": "utt_013",
+          "utterance_text": "said morrel sadly",
+          "start_ms": 71580,
+          "end_ms": 72400,
+          "char_start": 0,
+          "char_end": 0,
+          "surface": "",
+          "feature_type": "",
+          "position_in_utterance": "",
+          "llm_note": ""
+        },
+        {
+          "evidence_type": "token_instance",
+          "utterance_id": "utt_014",
+          "utterance_text": "yes replied noirtier",
+          "start_ms": 73120,
+          "end_ms": 74980,
+          "char_start": 0,
+          "char_end": 0,
+          "surface": "",
+          "feature_type": "",
+          "position_in_utterance": "",
+          "llm_note": ""
+        },
+        {
+          "evidence_type": "token_instance",
+          "utterance_id": "utt_016",
+          "utterance_text": "asked morrel yes",
+          "start_ms": 76820,
+          "end_ms": 79020,
+          "char_start": 0,
+          "char_end": 0,
+          "surface": "",
+          "feature_type": "",
+          "position_in_utterance": "",
+          "llm_note": ""
+        },
+        {
+          "evidence_type": "token_instance",
+          "utterance_id": "utt_019",
+          "utterance_text": "but can he understand you",
+          "start_ms": 82580,
+          "end_ms": 84000,
+          "char_start": 0,
+          "char_end": 0,
+          "surface": "",
+          "feature_type": "",
+          "position_in_utterance": "",
+          "llm_note": ""
+        },
+        {
+          "evidence_type": "token_instance",
+          "utterance_id": "utt_020",
+          "utterance_text": "yes",
+          "start_ms": 84660,
+          "end_ms": 84880,
+          "char_start": 0,
+          "char_end": 0,
+          "surface": "",
+          "feature_type": "",
+          "position_in_utterance": "",
+          "llm_note": ""
+        },
+        {
+          "evidence_type": "token_instance",
+          "utterance_id": "utt_023",
+          "utterance_text": "my father has revealed the culprit's name my father thirsts for revenge as much as you do yet even he conjures you as i do to keep this secret do you not father",
+          "start_ms": 94160,
+          "end_ms": 102940,
+          "char_start": 0,
+          "char_end": 0,
+          "surface": "",
+          "feature_type": "",
+          "position_in_utterance": "",
+          "llm_note": ""
+        },
+        {
+          "evidence_type": "token_instance",
+          "utterance_id": "utt_025",
+          "utterance_text": "the old man made a sign in the affirmative",
+          "start_ms": 107200,
+          "end_ms": 108840,
+          "char_start": 0,
+          "char_end": 0,
+          "surface": "",
+          "feature_type": "",
+          "position_in_utterance": "",
+          "llm_note": ""
+        },
+        {
+          "evidence_type": "token_instance",
+          "utterance_id": "utt_027",
+          "utterance_text": "but he stopped on the landing he had not the courage to again visit the death chamber",
+          "start_ms": 116420,
+          "end_ms": 120660,
+          "char_start": 0,
+          "char_end": 0,
+          "surface": "",
+          "feature_type": "",
+          "position_in_utterance": "",
+          "llm_note": ""
+        },
+        {
+          "evidence_type": "token_instance",
+          "utterance_id": "utt_029",
+          "utterance_text": "noirtier was near the bed pale motionless and silent as the corpse",
+          "start_ms": 123300,
+          "end_ms": 127840,
+          "char_start": 0,
+          "char_end": 0,
+          "surface": "",
+          "feature_type": "",
+          "position_in_utterance": "",
+          "llm_note": ""
+        },
+        {
+          "evidence_type": "token_instance",
+          "utterance_id": "utt_031",
+          "utterance_text": "the nearest said the district doctor is a good italian abbe who lives next door to you shall i call on him as i pass",
+          "start_ms": 139040,
+          "end_ms": 144360,
+          "char_start": 0,
+          "char_end": 0,
+          "surface": "",
+          "feature_type": "",
+          "position_in_utterance": "",
+          "llm_note": ""
+        },
+        {
+          "evidence_type": "token_instance",
+          "utterance_id": "utt_034",
+          "utterance_text": "i only wish to be alone you will excuse me will you not",
+          "start_ms": 159140,
+          "end_ms": 161640,
+          "char_start": 0,
+          "char_end": 0,
+          "surface": "",
+          "feature_type": "",
+          "position_in_utterance": "",
+          "llm_note": ""
+        }
+      ]
+    },
+    "FalseStartSelfCorrectionAgent": {
+      "agent_name": "FalseStartSelfCorrectionAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.789346+00:00",
+      "metrics": {
+        "source": "nlp",
+        "false_start_count": 0,
+        "false_start_rate_per_100_words": 0.0
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "functional_label": "fallback_mode",
+        "severity": "mild",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "LLM fallback used due to runtime error: Unable to locate credentials",
+        "confidence": 0.5
+      },
+      "evidence": []
+    },
+    "RepetitionAgent": {
+      "agent_name": "RepetitionAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790018+00:00",
+      "metrics": {
+        "source": "nlp",
+        "immediate_repetition_count": 0,
+        "repetition_rate": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "DelayedRepetitionAgent": {
+      "agent_name": "DelayedRepetitionAgent",
+      "version": "1.0",
+      "transcript_level": "full_transcript",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790156+00:00",
+      "metrics": {
+        "source": "nlp",
+        "recurring_scripted_phrases": [],
+        "delayed_repetition_rate": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SpeechRateRhythmAgent": {
+      "agent_name": "SpeechRateRhythmAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790207+00:00",
+      "metrics": {
+        "source": "nlp",
+        "mean_wpm": 212.022,
+        "sdlu": 12.329,
+        "rlu": 47,
+        "rhythm_cv": 0.917,
+        "clinical_flag": true
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "MLUAgent": {
+      "agent_name": "MLUAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790219+00:00",
+      "metrics": {
+        "source": "nlp",
+        "mlu_w": 13.438,
+        "mlu_m": 14.438,
+        "utterance_count": 16
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "VocabularyDiversityAgent": {
+      "agent_name": "VocabularyDiversityAgent",
+      "version": "1.0",
+      "transcript_level": "full_transcript",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790376+00:00",
+      "metrics": {
+        "source": "nlp",
+        "ttr": 0.6528,
+        "mattr50": 0.7944
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "NDWAgent": {
+      "agent_name": "NDWAgent",
+      "version": "1.0",
+      "transcript_level": "full_transcript",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790392+00:00",
+      "metrics": {
+        "source": "nlp",
+        "ndw_100w": 80,
+        "sample_tokens": 100
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "LexicalDensityAgent": {
+      "agent_name": "LexicalDensityAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790402+00:00",
+      "metrics": {
+        "source": "nlp",
+        "lexical_density": 0.5093,
+        "content_word_count": 110,
+        "total_tokens": 216
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SentenceComplexityAgent": {
+      "agent_name": "SentenceComplexityAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790418+00:00",
+      "metrics": {
+        "source": "nlp",
+        "clause_count": 18,
+        "clausal_density": 1.125,
+        "compound_proxy": 0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "AgreementErrorAgent": {
+      "agent_name": "AgreementErrorAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790425+00:00",
+      "metrics": {
+        "source": "nlp",
+        "sv_agreement_errors": 0,
+        "tense_errors": 0,
+        "error_rate_per_100_words": 0.0,
+        "clinical_flag": false
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "PronounReversalAgent": {
+      "agent_name": "PronounReversalAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790448+00:00",
+      "metrics": {
+        "source": "nlp",
+        "pronoun_counts": {
+          "we": 2,
+          "you": 9,
+          "he": 4,
+          "i": 4
+        },
+        "reversal_count": 0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "IdiosyncraticWordAgent": {
+      "agent_name": "IdiosyncraticWordAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790467+00:00",
+      "metrics": {
+        "source": "nlp",
+        "idiosyncratic_tokens": [
+          "extraordinary",
+          "irresistible"
+        ],
+        "idiosyncratic_rate_per_100_words": 0.926,
+        "clinical_flag": false
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SemanticCoherenceAgent": {
+      "agent_name": "SemanticCoherenceAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790547+00:00",
+      "metrics": {
+        "source": "nlp",
+        "local_coherence_mean": 0.0624,
+        "cross_speaker_coherence_mean": 0.0543,
+        "tangential_flag": true
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "GlobalCoherenceAgent": {
+      "agent_name": "GlobalCoherenceAgent",
+      "version": "1.0",
+      "transcript_level": "full_transcript",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790767+00:00",
+      "metrics": {
+        "source": "nlp",
+        "global_coherence_mean": 0.0422,
+        "pair_count": 120
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SentimentISLAgent": {
+      "agent_name": "SentimentISLAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790797+00:00",
+      "metrics": {
+        "source": "nlp",
+        "positive_valence_count": 2,
+        "negative_valence_count": 1,
+        "isl_count": 2,
+        "positive_negative_ratio": 2.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SemanticRelationshipAgent": {
+      "agent_name": "SemanticRelationshipAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790837+00:00",
+      "metrics": {
+        "source": "nlp",
+        "cue_hit_count": 1,
+        "coherent_relationship_count": 0,
+        "logical_coherence_ratio": 0.0
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "functional_label": "fallback_mode",
+        "severity": "mild",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "LLM fallback used due to runtime error: Unable to locate credentials",
+        "confidence": 0.5
+      },
+      "evidence": []
+    },
+    "FigurativeLanguageAgent": {
+      "agent_name": "FigurativeLanguageAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.790998+00:00",
+      "metrics": {
+        "source": "nlp",
+        "idiom_hits": 0,
+        "simile_hits": 0,
+        "metaphor_hits": 1,
+        "figurative_total": 1
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "functional_label": "fallback_mode",
+        "severity": "mild",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "LLM fallback used due to runtime error: Unable to locate credentials",
+        "confidence": 0.5
+      },
+      "evidence": []
+    },
+    "GreetingAgent": {
+      "agent_name": "GreetingAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791110+00:00",
+      "metrics": {
+        "source": "nlp",
+        "greeting_present": true,
+        "window_turns": 3
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "DepartureAgent": {
+      "agent_name": "DepartureAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791114+00:00",
+      "metrics": {
+        "source": "nlp",
+        "departure_present": false,
+        "window_turns": 3
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "InitiationAgent": {
+      "agent_name": "InitiationAgent",
+      "version": "1.0",
+      "transcript_level": "turn_pair",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791118+00:00",
+      "metrics": {
+        "source": "nlp",
+        "spontaneous_count": 14,
+        "prompted_count": 0,
+        "spontaneous_ratio": 1.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "TurnTakingAgent": {
+      "agent_name": "TurnTakingAgent",
+      "version": "1.0",
+      "transcript_level": "full_transcript",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791145+00:00",
+      "metrics": {
+        "source": "nlp",
+        "student_words": 215,
+        "interviewer_words": 315,
+        "word_balance_ratio": 0.683,
+        "turn_balance_cv": 0.917,
+        "clinical_flag": false
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "QuestionUseAgent": {
+      "agent_name": "QuestionUseAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791154+00:00",
+      "metrics": {
+        "source": "nlp",
+        "total_questions": 2,
+        "initiated_questions": 2,
+        "responsive_questions": 0,
+        "follow_up_questions": 0
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "functional_label": "fallback_mode",
+        "severity": "mild",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "LLM fallback used due to runtime error: Unable to locate credentials",
+        "confidence": 0.5
+      },
+      "evidence": []
+    },
+    "InformativenessAgent": {
+      "agent_name": "InformativenessAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791266+00:00",
+      "metrics": {
+        "source": "nlp",
+        "mean_score_1_to_3": 2.312,
+        "score_distribution": {
+          "3": 9,
+          "2": 3,
+          "1": 4
+        }
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "PolitenessHedgingAgent": {
+      "agent_name": "PolitenessHedgingAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791297+00:00",
+      "metrics": {
+        "source": "nlp",
+        "politeness_count": 0,
+        "hedge_count": 0,
+        "politeness_rate_per_100_utterances": 0.0,
+        "hedge_rate_per_100_utterances": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "TopicManagementAgent": {
+      "agent_name": "TopicManagementAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791370+00:00",
+      "metrics": {
+        "source": "nlp",
+        "topic_shift_count": 0,
+        "topic_shift_rate_per_100_utterances": 0.0,
+        "topic_maintenance_mean": 15.0,
+        "topic_maintenance_sd": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "WorkingMemoryAgent": {
+      "agent_name": "WorkingMemoryAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791393+00:00",
+      "metrics": {
+        "source": "nlp",
+        "reference_chain_count": 5,
+        "chain_break_count": 2,
+        "referential_coherence_ratio": 0.6
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "functional_label": "fallback_mode",
+        "severity": "mild",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "LLM fallback used due to runtime error: Unable to locate credentials",
+        "confidence": 0.5
+      },
+      "evidence": []
+    },
+    "NarrativeMacrostructureAgent": {
+      "agent_name": "NarrativeMacrostructureAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791519+00:00",
+      "metrics": {
+        "source": "nlp",
+        "story_grammar_elements": {
+          "setting": 0,
+          "initiating_event": 1,
+          "internal_response": 0,
+          "plan": 1,
+          "consequence": 1,
+          "reaction": 0
+        },
+        "macrostructure_score": 3
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "CohesionDeviceAgent": {
+      "agent_name": "CohesionDeviceAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791560+00:00",
+      "metrics": {
+        "source": "nlp",
+        "referential_count": 6,
+        "lexical_count": 17,
+        "conjunctive_count": 7,
+        "cohesion_rate_per_session": 1.875
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "CausalReasoningAgent": {
+      "agent_name": "CausalReasoningAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791587+00:00",
+      "metrics": {
+        "source": "nlp",
+        "causal_count": 0,
+        "conditional_count": 1,
+        "adversative_count": 3,
+        "connective_rate_per_100_words": 1.86
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "OrganisationScoreAgent": {
+      "agent_name": "OrganisationScoreAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791601+00:00",
+      "metrics": {
+        "source": "nlp",
+        "planning_marker_count": 0,
+        "repair_marker_count": 0,
+        "planning_ratio": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "ISLAgent": {
+      "agent_name": "ISLAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791624+00:00",
+      "metrics": {
+        "source": "nlp",
+        "emotion_term_rate_per_100_utterances": 0.0,
+        "cognitive_verb_rate_per_100_utterances": 12.5,
+        "first_person_cognitive": 0,
+        "third_person_cognitive": 1
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "PerspectiveTakingAgent": {
+      "agent_name": "PerspectiveTakingAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791640+00:00",
+      "metrics": {
+        "source": "nlp",
+        "embedded_clause_count": 0,
+        "mean_embedding_depth": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "ReferenceTrackingAgent": {
+      "agent_name": "ReferenceTrackingAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791655+00:00",
+      "metrics": {
+        "source": "nlp",
+        "total_referring_expressions": 6,
+        "unresolvable_count": 0,
+        "referential_ambiguity_rate": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "ContingentResponseAgent": {
+      "agent_name": "ContingentResponseAgent",
+      "version": "1.0",
+      "transcript_level": "turn_pair",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791715+00:00",
+      "metrics": {
+        "source": "nlp",
+        "contingent_count": 0,
+        "total_pairs": 14,
+        "contingent_rate": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "UtteranceIntonationAgent": {
+      "agent_name": "UtteranceIntonationAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791720+00:00",
+      "metrics": {
+        "source": "nlp",
+        "declarative_ratio": 1.0,
+        "question_ratio": 0.0,
+        "exclamative_ratio": 0.0
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SemanticTangentialityAgent": {
+      "agent_name": "SemanticTangentialityAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "skipped",
+      "computed_at": "2026-04-21T04:23:59.791722+00:00",
+      "metrics": {
+        "source": "nlp",
+        "skip_reason": "t3_disabled"
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "LCMAbstractionAgent": {
+      "agent_name": "LCMAbstractionAgent",
+      "version": "1.0",
+      "transcript_level": "utterance",
+      "speaker_scope": "student",
+      "status": "skipped",
+      "computed_at": "2026-04-21T04:23:59.791724+00:00",
+      "metrics": {
+        "source": "nlp",
+        "skip_reason": "t3_disabled"
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "SarcasmDetectionAgent": {
+      "agent_name": "SarcasmDetectionAgent",
+      "version": "1.0",
+      "transcript_level": "turn_pair",
+      "speaker_scope": "student",
+      "status": "skipped",
+      "computed_at": "2026-04-21T04:23:59.791737+00:00",
+      "metrics": {
+        "source": "nlp",
+        "mismatch_candidates": 0,
+        "gate_threshold": 0.7,
+        "skip_reason": "mismatch_gate_not_met"
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "EmpathyAgent": {
+      "agent_name": "EmpathyAgent",
+      "version": "1.0",
+      "transcript_level": "turn_pair",
+      "speaker_scope": "student",
+      "status": "skipped",
+      "computed_at": "2026-04-21T04:23:59.791749+00:00",
+      "metrics": {
+        "source": "nlp",
+        "alignment_mismatch_candidates": 0,
+        "gate_threshold": 0.7,
+        "skip_reason": "mismatch_gate_not_met"
+      },
+      "interpretation": {},
+      "evidence": []
+    },
+    "ExecutiveFunctionAgent": {
+      "agent_name": "ExecutiveFunctionAgent",
+      "version": "1.0",
+      "transcript_level": "topic",
+      "speaker_scope": "student",
+      "status": "completed",
+      "computed_at": "2026-04-21T04:23:59.791763+00:00",
+      "metrics": {
+        "source": "nlp",
+        "planning_ratio": 0.062,
+        "repair_ratio": 0.0
+      },
+      "interpretation": {
+        "source": "llm",
+        "model": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "functional_label": "fallback_mode",
+        "severity": "mild",
+        "severity_scale": "none | mild | moderate | severe",
+        "clinical_note": "LLM fallback used due to runtime error: Unable to locate credentials",
+        "confidence": 0.5
+      },
+      "evidence": []
+    }
+  },
+  "domains": {
+    "fluency": {
+      "contributing_agents": [
+        "FillerWordAgent",
+        "FalseStartSelfCorrectionAgent",
+        "RepetitionAgent",
+        "DelayedRepetitionAgent",
+        "SpeechRateRhythmAgent"
+      ],
+      "severity": "mild",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.26
+    },
+    "lexical_syntax": {
+      "contributing_agents": [
+        "MLUAgent",
+        "VocabularyDiversityAgent",
+        "NDWAgent",
+        "LexicalDensityAgent",
+        "SentenceComplexityAgent",
+        "AgreementErrorAgent",
+        "PronounReversalAgent",
+        "IdiosyncraticWordAgent"
+      ],
+      "severity": "none",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.0
+    },
+    "semantics": {
+      "contributing_agents": [
+        "SemanticCoherenceAgent",
+        "GlobalCoherenceAgent",
+        "SentimentISLAgent",
+        "SemanticRelationshipAgent",
+        "FigurativeLanguageAgent",
+        "SemanticTangentialityAgent"
+      ],
+      "severity": "mild",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.2
+    },
+    "pragmatics": {
+      "contributing_agents": [
+        "GreetingAgent",
+        "DepartureAgent",
+        "TurnTakingAgent",
+        "InitiationAgent",
+        "QuestionUseAgent",
+        "InformativenessAgent",
+        "PolitenessHedgingAgent",
+        "SarcasmDetectionAgent",
+        "EmpathyAgent"
+      ],
+      "severity": "mild",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.071
+    },
+    "discourse": {
+      "contributing_agents": [
+        "WorkingMemoryAgent",
+        "NarrativeMacrostructureAgent",
+        "CohesionDeviceAgent",
+        "CausalReasoningAgent",
+        "OrganisationScoreAgent",
+        "TopicManagementAgent",
+        "ExecutiveFunctionAgent"
+      ],
+      "severity": "mild",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.143
+    },
+    "social_cognition": {
+      "contributing_agents": [
+        "ISLAgent",
+        "PerspectiveTakingAgent",
+        "ReferenceTrackingAgent",
+        "ContingentResponseAgent",
+        "LCMAbstractionAgent"
+      ],
+      "severity": "none",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.0
+    },
+    "prosody": {
+      "contributing_agents": [
+        "SpeechRateRhythmAgent",
+        "UtteranceIntonationAgent"
+      ],
+      "severity": "none",
+      "severity_scale": "none | mild | moderate | severe",
+      "summary": "Auto-aggregated from Phase 2 outputs.",
+      "strengths": [],
+      "areas_for_growth": [],
+      "confidence": 0.0
+    }
+  },
+  "overall_profile": {
+    "severity_by_domain": {
+      "fluency": "mild",
+      "lexical_syntax": "none",
+      "semantics": "mild",
+      "pragmatics": "mild",
+      "discourse": "mild",
+      "social_cognition": "none",
+      "prosody": "none"
+    },
+    "dominant_area": "fluency",
+    "overall_severity": "mild",
+    "clinical_summary": "The profile reflects mixed performance across pragmatic and discourse functions.",
+    "longitudinal_delta": null,
+    "report_generated_at": "2026-04-21T04:23:59.791908+00:00",
+    "confidence": 0.096
+  },
+  "temporal_summary": {
+    "quartiles": 4,
+    "agent_arcs": {
+      "EmpathyAgent": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SarcasmDetectionAgent": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "TopicManagementAgent": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ExecutiveFunctionAgent": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "prosodic_arc_intensity_mean": [
+      0.65,
+      0.65,
+      0.65,
+      0.6363636363636364
+    ],
+    "flag_density_arc": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "narrative": "Fluency observations were collected with mild disfluency markers. Language form appeared variable across turns. Pragmatic performance showed mixed reciprocal response quality. Prosody-pragmatics alignment was interpreted conservatively due to runtime fallback mode."
+}
